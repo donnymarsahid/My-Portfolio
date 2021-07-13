@@ -1,0 +1,222 @@
+:root {
+  --black: #3e3d3d;
+  --yellow: #fecf28;
+}
+/* Mobile */
+@media (max-width: 375px) {
+  header p {
+    font-size: 14px !important;
+  }
+  .information .box p {
+    font-size: 12.5px !important;
+  }
+  .content p {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 576px) {
+  /* Navbar Start */
+
+  .responsive-page {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  nav .link {
+    display: none;
+  }
+  nav .nav-bar {
+    width: 90%;
+  }
+  nav .logo img {
+    width: 25px;
+  }
+  nav .logo ul {
+    padding-left: 3px;
+    font-size: 22px;
+  }
+  nav .nav-bar {
+    justify-content: center;
+  }
+  nav .logo {
+    width: 33%;
+  }
+  nav .dark-mode .hidden-darkmode {
+    display: none;
+  }
+  nav .dark-mode {
+    width: 33%;
+  }
+  nav .dark-mode i {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    padding-left: 20px;
+  }
+  nav .hamburger-menu {
+    width: 33%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+  }
+  nav .hamburger-menu::before {
+    content: '';
+  }
+  /* Navbar End */
+  /* Footer Start */
+  footer .social-media-footer .social-media {
+    display: flex;
+    flex-direction: row !important;
+  }
+  footer .social-media-footer .social-media i {
+    background-color: var(--yellow);
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 24px;
+    margin: 5px;
+  }
+  footer .link-portfolio {
+    display: none;
+  }
+  footer {
+    height: 200px;
+    width: 100%;
+  }
+  footer .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly !important;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  footer .container .about {
+    text-align: center !important;
+    order: 2;
+  }
+  footer .container .about p {
+    margin: 0 0 3px;
+  }
+  footer .container .link-portfolio p {
+    margin: 0 0 3px;
+  }
+  footer .container .copyright {
+    order: 3;
+  }
+  footer .container .link-portfolio {
+    order: 2;
+  }
+  footer .link-portfolio p.text-end {
+    text-align: center !important;
+  }
+  /* Footer End */
+  /* Header Start */
+  header {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+  }
+  header .col-md-6.pt-5 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  header .col-md-6.d-flex {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  header .col-md-6.d-flex .float-bg {
+    display: none;
+  }
+
+  header .heading-header {
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  header .row p {
+    font-size: 16px;
+  }
+
+  header .heading-header h3 {
+    font-size: 18px;
+  }
+  header .row .col-md-6 .heading-header img {
+    margin: 0;
+    padding: 0 5px 10px 0 !important;
+    width: 38px;
+  }
+  header .row img.logo-header {
+    width: 200px;
+  }
+  /* Information Start */
+  .information p {
+    font-size: 14px !important;
+  }
+  .information .box {
+    padding: 0 5px 0 5px;
+  }
+  .information .logo-information img {
+    width: 80px;
+  }
+  /* Information End */
+  /* Content Start  */
+  .content .box-text {
+    width: 25%;
+  }
+  .content .row .col-md-4 {
+    margin-bottom: 30px;
+  }
+  /* Content End */
+  /* Ilustrator Start */
+  .ilustrator .row .col-md-4 {
+    display: none !important;
+  }
+  .ilustrator .col-md-8 {
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 200px;
+  }
+  .ilustrator .jumbotron {
+    width: 100%;
+    margin-left: -30px;
+  }
+
+  .ilustrator .row {
+    margin: 0;
+  }
+  .ilustrator button.btn {
+    background-color: white;
+    padding: 12px 12px 12px 5px;
+    font-size: 14px;
+  }
+  .ilustrator button.btn:hover {
+    background-color: var(--yellow);
+    color: white;
+  }
+
+  .ilustrator .row .col-md-8 {
+    flex-direction: column;
+  }
+  /* Ilustrator End */
+  /* SOSMED Start */
+  .information .social-media {
+    display: none !important;
+  }
+  /* SOSMED End */
+}
+/* Header End */
+
+/* Desktop and Tablet */
+@media (min-width: 768px) {
+  nav .hamburger-menu {
+    display: none;
+  }
+}

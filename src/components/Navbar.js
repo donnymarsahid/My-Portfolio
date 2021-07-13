@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../assets/css/style.css';
+import '../assets/css/responsive.css';
 import logoDonny from '../assets/img/logo.svg';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
@@ -52,8 +53,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="dark-mode d-flex align-items-center justify-content-between">
-            <div></div>
+            <div className="hidden-darkmode"></div>
             <i className="fas fa-moon"></i>
+          </div>
+          <div class="hamburger-menu">
+            <i class="fa fa-bars"></i>
           </div>
         </div>
       </nav>

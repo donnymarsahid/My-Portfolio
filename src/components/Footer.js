@@ -38,6 +38,22 @@ const Footer = () => {
               </Link>
             </p>
           </div>
+          <div class="social-media-footer">
+            <div className="social-media d-flex flex-column">
+              <Link to="http://instagram.com/donnymrshd" className="icon-sosmed">
+                <i className="fab fa-instagram d-flex align-items-center justify-content-center"></i>
+              </Link>
+              <Link to="http://www.linkedin.com/donny-marsahid" className="icon-sosmed">
+                <i className="fab fa-linkedin d-flex align-items-center justify-content-center"></i>
+              </Link>
+              <Link to="https://github.com/donnymarsahid" className="icon-sosmed">
+                <i className="fab fa-github d-flex align-items-center justify-content-center"></i>
+              </Link>
+              <Link to="https://dribbble.com/donnymrshd" className="icon-sosmed">
+                <i className="fab fa-dribbble d-flex align-items-center justify-content-center"></i>
+              </Link>
+            </div>
+          </div>
         </div>
       </footer>
     </>

@@ -308,6 +308,7 @@ header p {
 
 .ilustrator {
   margin: 100px 0 100px 0;
+  width: 100%;
 }
 
 .ilustrator .link-icon {
@@ -325,7 +326,6 @@ header p {
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: burlywood;
   display: flex;
   align-items: center;
 }
