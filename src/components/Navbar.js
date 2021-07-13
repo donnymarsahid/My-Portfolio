@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../assets/css/style.css';
 import logoDonny from '../assets/img/logo.svg';
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
 const Navbar = () => {
+  useEffect(() => {
+    $('.about-nav').on('click', function () {
+      window.scrollTo(0, 0);
+    });
+    $('.home-nav').on('click', function () {
+      window.scrollTo(0, 0);
+    });
+  }, []);
+
   return (
     <>
       <nav className="fixed-top d-flex align-items-center">
         <div className="nav-bar d-flex justify-content-between container">
           <div className="logo d-flex">
-            <Link to="/" className="link-logo-img">
+            <Link to="/" className="link-logo-img home-nav">
               <img src={logoDonny} alt="logo-donny" />
             </Link>
             <Link to="/" className="link-logo-name">
@@ -25,11 +35,10 @@ const Navbar = () => {
           <div className="link">
             <ul className="d-flex justify-content-around align-items-center">
               <li>
-                <Link to="/">
+                <Link to="/about" className="about-nav">
                   <a>About</a>
                 </Link>
               </li>
-
               <li>
                 <Link to="/">
                   <a>Portfolio</a>

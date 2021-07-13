@@ -5,16 +5,23 @@ import logoHeader from '../assets/img/logo-header.svg';
 import information from '../assets/img/information.svg';
 import landingPage from '../assets/img/landingpage.svg';
 import movies from '../assets/img/movies.svg';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
+
+// Parralax icons
+$(window).scroll(function () {
+  let wScroll = $(this).scrollTop();
+
+  if (wScroll > 460) {
+    $('.information .social-media').addClass('scroll');
+  } else {
+    $('.information .social-media').removeClass('scroll');
+  }
+});
 
 const Home = () => {
   return (
     <>
-      {/* Navbar Start */}
-      <Navbar />
-      {/* Navbar End */}
       <header className="d-flex align-items-center">
         <div className="jumbotron-header container">
           <div className="row">
@@ -186,9 +193,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* Footer Start */}
-      <Footer />
-      {/* Footer End */}
     </>
   );
 };

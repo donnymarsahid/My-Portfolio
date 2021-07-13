@@ -503,6 +503,7 @@ footer .container {
   padding: 5px;
   box-sizing: border-box;
   background-color: #f1f1f1;
+  transition: 0.2s;
 }
 
 .equipment .box-equipment:hover {
