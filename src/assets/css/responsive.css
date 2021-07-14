@@ -51,10 +51,10 @@
   }
 
   .mobile-menu .linked {
-    display: block;
+    display: none;
   }
   .mobile-menu .linked.show {
-    display: none;
+    display: block;
   }
 
   .mobile-menu.show {
