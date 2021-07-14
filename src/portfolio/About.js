@@ -39,62 +39,68 @@ const About = () => {
             </p>
             <p>untuk mengisi waktu kosong, saya senang membuat website dan design, saya juga suka mempelajari programming seiring perjalanan waktu dan perkembangan tekhnologi yang terbaru, saya jadi suka membaca dan mempraktekkan.</p>
             <hr />
-            <div className="p-box-text-about mb-4">
-              <h3 className="mt-4">Keahlian</h3>
-            </div>
-            <div className="row">
-              <div className="col-md-12 d-flex justify-content-between">
-                <div className="html5 text-center">
-                  <img src={html5} alt="html5" />
-                  <p className="text-uppercase">html 5</p>
-                </div>
-                <div className="bootstrap text-center">
-                  <img src={bootstrap} alt="bootstrap" />
-                  <p className="text-uppercase">bootstrap</p>
-                </div>
-                <div className="css3 text-center">
-                  <img src={css3} alt="css3" />
-                  <p className="text-uppercase">css 3</p>
-                </div>
-                <div className="javascript text-center">
-                  <img src={javascript} alt="javascript" />
-                  <p className="text-uppercase">javascript</p>
-                </div>
-                <div className="nodejs text-center">
-                  <img src={nodejs} alt="node js" />
-                  <p className="text-uppercase">node js</p>
-                </div>
+            <div class="mobile-container-skill">
+              <div className="p-box-text-about mb-4">
+                <h3 className="mt-4">Keahlian</h3>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-12 d-flex justify-content-between">
-                <div className="reactjs text-center">
-                  <img src={reactjs} alt="reactjs" />
-                  <p className="text-uppercase">react js</p>
+            <div class="mobile-row">
+              <div className="row">
+                <div className="col-md-12 d-flex justify-content-between">
+                  <div className="html5 text-center">
+                    <img src={html5} alt="html5" />
+                    <p className="text-uppercase">html 5</p>
+                  </div>
+                  <div className="bootstrap text-center">
+                    <img src={bootstrap} alt="bootstrap" />
+                    <p className="text-uppercase">bootstrap</p>
+                  </div>
+                  <div className="css3 text-center">
+                    <img src={css3} alt="css3" />
+                    <p className="text-uppercase">css 3</p>
+                  </div>
+                  <div className="javascript text-center">
+                    <img src={javascript} alt="javascript" />
+                    <p className="text-uppercase">javascript</p>
+                  </div>
+                  <div className="nodejs text-center">
+                    <img src={nodejs} alt="node js" />
+                    <p className="text-uppercase">node js</p>
+                  </div>
                 </div>
-                <div className="mysql text-center">
-                  <img src={mysql} alt="mysql" className="pb-5" />
-                  <p className="text-uppercase">mysql</p>
-                </div>
-                <div className="figma text-center">
-                  <img src={figma} alt="figma" />
-                  <p className="text-uppercase">figma</p>
-                </div>
-                <div className="bootstrap text-center">
-                  <img src={photoshop} alt="photoshop" />
-                  <p className="text-uppercase">photoshop</p>
-                </div>
-                <div className="adobe-ilustrator text-center">
-                  <img src={ilustrator} alt="ilustrator" />
-                  <p className="text-uppercase">ilustrator</p>
+              </div>
+              <div className="row">
+                <div className="col-md-12 d-flex justify-content-between">
+                  <div className="reactjs text-center">
+                    <img src={reactjs} alt="reactjs" />
+                    <p className="text-uppercase">react js</p>
+                  </div>
+                  <div className="mysql text-center">
+                    <img src={mysql} alt="mysql" className="pb-5" />
+                    <p className="text-uppercase">mysql</p>
+                  </div>
+                  <div className="figma text-center">
+                    <img src={figma} alt="figma" />
+                    <p className="text-uppercase">figma</p>
+                  </div>
+                  <div className="bootstrap text-center">
+                    <img src={photoshop} alt="photoshop" />
+                    <p className="text-uppercase">photoshop</p>
+                  </div>
+                  <div className="adobe-ilustrator text-center">
+                    <img src={ilustrator} alt="ilustrator" />
+                    <p className="text-uppercase">ilustrator</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="container-experience work-experience">
-          <div className="p-box-text-experience mb-4">
-            <h3 className="mt-4">Pengalaman Kerja</h3>
+          <div class="mobile-container-experience">
+            <div className="p-box-text-experience mb-4">
+              <h3 className="mt-4">Pengalaman Kerja</h3>
+            </div>
           </div>
           <div className="box-experience">
             <div className="row">
@@ -146,8 +152,10 @@ const About = () => {
             </div>
           </div>
           <div className="equipment mt-2">
-            <div className="p-box-text-equipment mb-4">
-              <h3 className="mt-4">Saya Menggunakan</h3>
+            <div class="equipment-box-heading">
+              <div className="p-box-text-equipment mb-4">
+                <h3 className="mt-4">Saya Menggunakan</h3>
+              </div>
             </div>
             <div className="row">
               <div className="col-md-3">

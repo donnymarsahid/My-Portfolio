@@ -13,6 +13,27 @@
   .content p {
     font-size: 13px !important;
   }
+  .hamburger-menu {
+    font-size: 24px !important;
+  }
+  nav .logo ul {
+    font-size: 22px !important;
+  }
+  nav .logo img {
+    width: 22px !important;
+  }
+  nav .dark-mode i {
+    font-size: 22px !important;
+  }
+  .pages-about-me p {
+    font-size: 12px !important;
+  }
+  .pages-about-me .box-experience .col-2 img {
+    width: 40px;
+  }
+  .pages-about-me .box-experience .col-10 p {
+    padding-left: 10=5px;
+  }
 }
 @media (max-width: 576px) {
   /* Navbar Start */
@@ -154,6 +175,7 @@
   header .row img.logo-header {
     width: 200px;
   }
+  /* Header End */
   /* Information Start */
   .information p {
     font-size: 14px !important;
@@ -186,7 +208,8 @@
   }
   .ilustrator .jumbotron {
     width: 100%;
-    margin-left: -30px;
+    margin-left: -20px;
+    background-size: 650px;
   }
 
   .ilustrator .row {
@@ -194,7 +217,7 @@
   }
   .ilustrator button.btn {
     background-color: white;
-    padding: 12px 12px 12px 5px;
+    padding: 10 10 10 10px;
     font-size: 14px;
   }
   .ilustrator button.btn:hover {
@@ -211,12 +234,93 @@
     display: none !important;
   }
   /* SOSMED End */
+  /* Pages About Start */
+  .pages-about-me .name-about img {
+    width: 220px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  .pages-about-me p {
+    font-size: 14px;
+  }
+  .pages-about-me h3 {
+    font-size: 22px;
+  }
+  .pages-about-me .mobile-row {
+    display: flex;
+    justify-content: center;
+  }
+  .pages-about-me .row .col-md-12 {
+    justify-content: space-evenly !important;
+    flex-direction: column;
+  }
+  .pages-about-me .p-box-text-about {
+    width: 102.63px;
+  }
+  .pages-about-me .mobile-container-skill {
+    display: flex;
+    justify-content: center;
+  }
+  .pages-about-me .row .col-md-12 img {
+    width: 50px;
+  }
+  .pages-about-me .row .col-md-12 .mysql img.pb-5 {
+    height: 50px;
+    padding: 10px 10px 10px !important;
+  }
+  .pages-about-me .p-box-text-experience h3 {
+    font-size: 20px;
+  }
+  .pages-about-me .p-box-text-experience {
+    width: 195px !important;
+    margin: 0;
+  }
+  .pages-about-me .mobile-container-experience {
+    display: flex;
+    justify-content: center;
+  }
+  .pages-about-me .box-experience .col-2 img {
+    width: 50px;
+  }
+  .pages-about-me .box-experience .col-2 {
+    display: flex;
+    align-items: center;
+  }
+  .pages-about-me .box-experience .col-10 p {
+    padding-left: 10px;
+  }
+  .pages-about-me .web-information {
+    background-color: rgba(255, 140, 0, 0.137);
+  }
+  .pages-about-me .web-information .row .col-6 {
+    width: 100%;
+    font-size: 12px;
+  }
+  .pages-about-me .web-information .row .col-6 .content-info-web.show {
+    max-height: 200px !important;
+  }
+  .pages-about-me .equipment .p-box-text-equipment {
+    width: 230px;
+  }
+  .pages-about-me .equipment .p-box-text-equipment h3 {
+    font-size: 22px;
+  }
+  .pages-about-me .equipment .equipment-box-heading {
+    display: flex;
+    justify-content: center;
+  }
+  .pages-about-me .equipment .col-md-3 {
+    margin-bottom: 20px;
+  }
+  /* Pages About End */
 }
-/* Header End */
 
 /* Desktop and Tablet */
 @media (min-width: 768px) {
   nav .hamburger-menu {
+    display: none;
+  }
+  footer .social-media-footer {
     display: none;
   }
 }
