@@ -473,6 +473,16 @@
     display: none;
   }
 
+  .p-box-text-equipment {
+    width: 290px !important;
+  }
+  .p-box-text-equipment {
+    width: 290px !important;
+  }
+  .mobile-container-skill .p-box-text-about {
+    width: 130px !important;
+  }
+
   .pages-about-me .p-box-text-experience {
     width: 270px;
   }

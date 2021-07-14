@@ -68,7 +68,7 @@ const Navbar = () => {
       </nav>
       <div className="mobile-menu">
         <div className="link-hamburger">
-          <Link to="/about" className="linked">
+          <Link to="/about" className="linked about-nav">
             <p>About</p>
           </Link>
           <Link className="linked">

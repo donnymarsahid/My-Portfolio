@@ -19,6 +19,10 @@ nav .logo ul li {
   align-items: center;
 }
 
+nav .hamburger-menu i {
+  cursor: pointer;
+}
+
 nav .link-logo-name,
 nav .link-logo-img {
   text-decoration: none;
