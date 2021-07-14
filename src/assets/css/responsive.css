@@ -287,7 +287,7 @@
   }
   .pages-about-me .mobile-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .pages-about-me .row .col-md-12 {
     justify-content: space-evenly !important;
@@ -328,12 +328,24 @@
   .pages-about-me .box-experience .col-10 p {
     padding-left: 10px;
   }
-  .pages-about-me .web-information {
-    background-color: rgba(255, 140, 0, 0.137);
-  }
   .pages-about-me .web-information .row .col-6 {
-    width: 100%;
     font-size: 12px;
+  }
+
+  .web-information .row .col-6 {
+    width: 100%;
+  }
+  .web-information .row .col-6.one {
+    width: 50%;
+  }
+  .web-information .row .col-6.two {
+    width: 50%;
+  }
+  .web-information .row .col-6.three {
+    width: 50%;
+  }
+  .web-information .row .col-6.four {
+    width: 50%;
   }
   .pages-about-me .web-information .row .col-6 .content-info-web.show {
     max-height: 200px !important;
@@ -447,12 +459,18 @@
   .pages-about-me .web-information .row .col-6 .content-info-web.show {
     max-height: 250px !important;
   }
+  .mobile-menu {
+    display: none;
+  }
 }
 
 /* Tablet to Desktop */
 @media (min-width: 769px) {
   .pages-about-me .p-box-text-about {
     width: 118px;
+  }
+  .mobile-menu {
+    display: none;
   }
 
   .pages-about-me .p-box-text-experience {

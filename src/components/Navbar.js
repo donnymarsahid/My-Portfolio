@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to="/" className="link-logo-img home-nav">
               <img src={logoDonny} alt="logo-donny" />
             </Link>
-            <Link to="/" className="link-logo-name">
+            <Link to="/" className="link-logo-name home-nav">
               <ul className="d-flex align-items-center">
                 <li>D</li>
                 <li>o</li>
