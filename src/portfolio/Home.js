@@ -111,7 +111,7 @@ const Home = () => {
                   <Link to="/" className="h4">
                     <h4>Movies</h4>
                   </Link>
-                  <p className="text-muted">pembuatan website Movies</p>
+                  <p>pembuatan website Movies</p>
                   <p className="text-muted posted">
                     Jul, 7 2021 <br />
                     <i className="fas fa-user-circle"></i> by Donny Marsahid
