@@ -477,7 +477,7 @@ footer .container {
   transition: 0.2s;
 }
 .web-information .content-info-web.show {
-  max-height: 100px;
+  max-height: 150px;
 }
 
 .web-information .drop-down-web {

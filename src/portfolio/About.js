@@ -139,10 +139,18 @@ const About = () => {
                   </div>
                   <div className="content-info-web">
                     <div className="row p-3">
-                      <div className="col-6  one p-2">Built with</div>
-                      <div className="col-6 two p-2">React Js</div>
-                      <div className="col-6 three p-2">Deploy With</div>
-                      <div className="col-6 four p-2">Netlify</div>
+                      <div className="col-6  one p-2">
+                        <p>Built with</p>
+                      </div>
+                      <div className="col-6 two p-2">
+                        <p> React Js</p>
+                      </div>
+                      <div className="col-6 three p-2">
+                        <p>Deploy With</p>
+                      </div>
+                      <div className="col-6 four p-2">
+                        <p>Netlify</p>
+                      </div>
                     </div>
                   </div>
                 </div>
