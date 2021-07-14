@@ -181,7 +181,7 @@ const About = () => {
               <div className="col-md-3">
                 <div className="box-equipment d-flex flex-column justify-content-center align-items-center">
                   <i className="fas fa-code"></i>
-                  <p>React Js </p>
+                  <p>React Js</p>
                 </div>
               </div>
 
