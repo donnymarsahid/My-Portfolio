@@ -110,3 +110,12 @@ body.darkmode .p-box-text-equipment h3::after {
 }
 
 /* About End */
+
+body.darkmode .mobile-menu {
+  background-color: #3e3d3d;
+}
+body.darkmode footer .social-media-footer i {
+  color: white;
+  border: 1px solid white;
+  background-color: #3e3d3d;
+}
