@@ -3,6 +3,7 @@ import About from './portfolio/About';
 import Home from './portfolio/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Portfolio from './portfolio/Portfolio';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
         </Switch>
       </Router>
       <Footer />

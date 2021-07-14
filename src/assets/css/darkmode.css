@@ -100,7 +100,12 @@ body.darkmode .p-box-text-equipment h3::after {
   margin-top: -10px;
   border-bottom: 8px solid #666666 !important;
 }
-
+body.darkmode .jumbotron-portfolio img.jb-1 {
+  display: none;
+}
+body.darkmode .jumbotron-portfolio img.jb-2 {
+  display: block;
+}
 /* About End */
 
 body.darkmode .mobile-menu {

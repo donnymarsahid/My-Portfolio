@@ -178,40 +178,6 @@ header p {
   padding: 20px;
   box-sizing: border-box;
 }
-
-.information .social-media {
-  margin-right: 50px;
-  position: absolute;
-  top: 562px;
-  right: -20px;
-  cursor: pointer;
-}
-
-.information .social-media .icon-sosmed {
-  text-decoration: none;
-}
-
-.information .social-media.scroll {
-  position: fixed;
-  top: 100px;
-  right: -20px;
-}
-
-.information .social-media i {
-  font-size: 38px;
-  background-color: transparent;
-  margin-top: 20px;
-  border: 2px solid var(--yellow);
-  color: var(--yellow);
-  height: 60px;
-  width: 60px;
-  border-radius: 50px;
-  transition: 0.2s;
-}
-.information .social-media i:hover {
-  color: white;
-  background-color: var(--yellow);
-}
 /* Information End */
 
 /* Content Start */

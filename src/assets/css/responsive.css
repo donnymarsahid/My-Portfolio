@@ -268,11 +268,6 @@
     flex-direction: column;
   }
   /* Ilustrator End */
-  /* SOSMED Start */
-  .information .social-media {
-    display: none !important;
-  }
-  /* SOSMED End */
   /* Pages About Start */
   .pages-about-me .name-about img {
     width: 220px;
@@ -384,9 +379,6 @@
   }
   nav .dark-mode i {
     font-size: 20px;
-  }
-  .information .social-media.d-flex {
-    display: none !important;
   }
   nav .link ul {
     display: flex;

@@ -1,0 +1,12 @@
+:root {
+  --black: #3e3d3d;
+  --yellow: #fecf28;
+}
+
+.jumbotron-portfolio {
+  margin-top: 62px;
+}
+
+.jumbotron-portfolio img.jb-2 {
+  display: none;
+}
