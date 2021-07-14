@@ -5,6 +5,11 @@ import logoDonny from '../assets/img/logo.svg';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
 
+function hamburgerMenu() {
+  $('.linked').toggleClass('show');
+  $('.mobile-menu').toggleClass('show');
+}
+
 const Navbar = () => {
   useEffect(() => {
     $('.about-nav').on('click', function () {
@@ -56,11 +61,24 @@ const Navbar = () => {
             <div className="hidden-darkmode"></div>
             <i className="fas fa-moon"></i>
           </div>
-          <div class="hamburger-menu">
-            <i class="fa fa-bars"></i>
+          <div className="hamburger-menu">
+            <i className="fa fa-bars" onClick={hamburgerMenu}></i>
           </div>
         </div>
       </nav>
+      <div className="mobile-menu">
+        <div className="link-hamburger">
+          <Link to="/about" className="linked">
+            <p>About</p>
+          </Link>
+          <Link className="linked">
+            <p>Portfolio</p>
+          </Link>
+          <Link className="linked">
+            <p>Contact</p>
+          </Link>
+        </div>
+      </div>
     </>
   );
 };
