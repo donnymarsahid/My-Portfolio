@@ -8,8 +8,8 @@ import $ from 'jquery';
 function hamburgerMenu() {
   $('.linked').toggleClass('show');
   $('.mobile-menu').toggleClass('show');
+  $('.hamburger-menu .fa').toggleClass('fa-times');
 }
-
 const Navbar = () => {
   useEffect(() => {
     $('.about-nav').on('click', function () {
