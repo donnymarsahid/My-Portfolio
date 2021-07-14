@@ -13,8 +13,6 @@ import photoshop from '../assets/img/logo/photoshop.svg';
 import ilustrator from '../assets/img/logo/ilustrator.svg';
 import nobu from '../assets/img/logo/nobu.svg';
 import kotex from '../assets/img/logo/kotex.png';
-import vscode from '../assets/img/logo/vscode.svg';
-import ai from '../assets/img/logo/ai.svg';
 import $ from 'jquery';
 
 function dropDown() {
@@ -174,7 +172,7 @@ const About = () => {
               </div>
               <div className="col-md-3">
                 <div className="box-equipment d-flex flex-column justify-content-center align-items-center">
-                  <img src={vscode} alt="vscode" />
+                  <div className="logo-vscode" />
                   <p>Visual Studio Code</p>
                 </div>
               </div>
@@ -193,7 +191,7 @@ const About = () => {
               </div>
               <div className="col-md-3 mt-3">
                 <div className="box-equipment d-flex flex-column justify-content-center align-items-center">
-                  <img src={ai} alt="adobeilustrator" />
+                  <div className="logo-ai" />
                   <p>Adobe Ilustrator</p>
                 </div>
               </div>

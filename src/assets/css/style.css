@@ -510,6 +510,41 @@ footer .container {
   margin-bottom: 100px;
 }
 
+.equipment .box-equipment .logo-vscode::before {
+  content: '';
+  background: url('../img/logo/dmvscode.svg');
+  display: block;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-bottom: 10px;
+}
+.equipment .box-equipment .logo-vscode::before {
+  content: '';
+  background: url('../img/logo/vscode.svg');
+  display: block;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-bottom: 10px;
+}
+.equipment .box-equipment .logo-ai::before {
+  content: '';
+  background: url('../img/logo/ai.svg');
+  display: block;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-bottom: 10px;
+}
+.equipment .box-equipment img {
+  width: 35px;
+  padding-bottom: 8px;
+}
+
 .equipment .box-equipment {
   height: 150px;
   border-radius: 10px;
@@ -522,10 +557,7 @@ footer .container {
 .equipment .box-equipment:hover {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.199);
 }
-.equipment .box-equipment img {
-  width: 35px;
-  padding-bottom: 8px;
-}
+
 .p-box-text-equipment {
   width: 31%;
   margin-top: 50px;

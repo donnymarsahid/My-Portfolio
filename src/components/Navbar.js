@@ -1,10 +1,40 @@
 import React, { useEffect } from 'react';
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
+import '../assets/css/darkmode.css';
 import logoDonny from '../assets/img/logo.svg';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
 
+// Dark Mode Start
+
+const darkmode = localStorage.getItem('darkmode');
+
+const enableDarkmode = () => {
+  $('body').addClass('darkmode');
+  $('.fa-moon').addClass('fa-sun');
+  localStorage.setItem('darkmode', 'enabled');
+};
+const disableDarkmode = () => {
+  $('body').removeClass('darkmode');
+  $('.fa-moon').removeClass('fa-sun');
+  localStorage.setItem('darkmode', 'null');
+};
+
+if (darkmode === 'enabled') {
+  enableDarkmode();
+}
+
+function darkMode() {
+  const dark = localStorage.getItem('darkmode');
+  if (dark !== 'enabled') {
+    enableDarkmode();
+  } else {
+    disableDarkmode();
+  }
+}
+
+// Dark Mode END
 function hamburgerMenu() {
   $('.linked').toggleClass('show');
   $('.mobile-menu').toggleClass('show');
@@ -59,7 +89,7 @@ const Navbar = () => {
           </div>
           <div className="dark-mode d-flex align-items-center justify-content-between">
             <div className="hidden-darkmode"></div>
-            <i className="fas fa-moon"></i>
+            <i className="fas fa-moon" onClick={darkMode}></i>
           </div>
           <div className="hamburger-menu">
             <i className="fa fa-bars" onClick={hamburgerMenu}></i>

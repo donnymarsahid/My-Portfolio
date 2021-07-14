@@ -2,7 +2,7 @@
   --black: #3e3d3d;
   --yellow: #fecf28;
 }
-/* Mobile */
+/* Mobile small */
 @media (max-width: 375px) {
   header p {
     font-size: 14px !important;
@@ -365,8 +365,8 @@
   }
   /* Pages About End */
 }
-
-@media (min-width: 577px) and (max-width: 768px) {
+/* Mobile to Tablet */
+@media (min-width: 576px) and (max-width: 768px) {
   .responsive-page {
     width: 100%;
   }
@@ -465,7 +465,7 @@
 }
 
 /* Tablet to Desktop */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .pages-about-me .p-box-text-about {
     width: 118px;
   }

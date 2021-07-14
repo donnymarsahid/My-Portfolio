@@ -53,8 +53,15 @@ const Home = () => {
                 <img src={information} alt="information" />
               </div>
               <p className="pt-4 pb-3">
-                Saya akan memperkenalkan beberapa <Link to="/">Portfolio</Link> yang saya buat, dari hasil kerja yang saya pelajari mengenai <strong>Web Design</strong> Maupun <strong>Web Develop</strong> , jika ingin bertanya{' '}
-                <Link to="/">Kontak</Link> saya ya.. Selamat membaca :)
+                Saya akan memperkenalkan beberapa{' '}
+                <Link to="/" className="p">
+                  Portfolio
+                </Link>{' '}
+                yang saya buat, dari hasil kerja yang saya pelajari mengenai <strong>Web Design</strong> Maupun <strong>Web Develop</strong> , jika ingin bertanya{' '}
+                <Link to="/" className="p">
+                  Kontak
+                </Link>{' '}
+                saya ya.. Selamat membaca :)
               </p>
             </div>
           </div>

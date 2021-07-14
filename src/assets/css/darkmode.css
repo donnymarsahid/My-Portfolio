@@ -1,0 +1,112 @@
+/* Dark Mode */
+
+/* Start Homepage */
+body.darkmode,
+body.darkmode nav {
+  background-color: #3e3d3d;
+}
+body.darkmode p,
+body.darkmode .p,
+body.darkmode h1,
+body.darkmode h2,
+body.darkmode h3,
+body.darkmode h4 {
+  color: white !important;
+}
+
+body.darkmode .box-equipment i {
+  color: white !important;
+}
+
+body.darkmode .box-text h3::after {
+  content: '';
+  display: block;
+  margin-top: -10px;
+  border-bottom: 8px solid #666666 !important;
+}
+
+body.darkmode .btn,
+body.darkmode button,
+body.darkmode button.btn {
+  background-color: #666666 !important;
+  color: white !important;
+}
+
+body.darkmode .social-media i {
+  color: white !important;
+  border: 2px solid white !important;
+}
+
+body.darkmode button i {
+  color: #fecf28 !important;
+}
+
+body.darkmode .ilustrator .jumbotron {
+  background-image: url('../img/bgdarkmode.svg');
+  border-radius: 10px;
+}
+
+body.darkmode strong {
+  color: #cccccc;
+}
+body.darkmode header {
+  background-color: #666666;
+}
+
+body.darkmode .information .box {
+  background-color: #666666 !important;
+}
+
+/* End Homepage */
+
+/* About Start */
+
+body.darkmode .equipment .box-equipment .logo-vscode::before {
+  content: '';
+  background: url('../img/logo/dmvscode.svg');
+  display: block;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-bottom: 10px;
+}
+body.darkmode .equipment .box-equipment .logo-ai::before {
+  content: '';
+  background: url('../img/logo/ai-dm.svg');
+  display: block;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+body.darkmode .page-about .jumbotron {
+  background-color: #666666;
+}
+
+body.darkmode .box-experience,
+body.darkmode .box,
+body.darkmode .box-equipment {
+  background-color: #666666;
+}
+
+body.darkmode .page-about .container-about img {
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.205);
+  border-radius: 5px;
+}
+
+body.darkmode .p-box-text-about h3::after,
+body.darkmode .p-box-text-experience h3::after,
+body.darkmode .p-box-text-equipment h3::after {
+  content: '';
+  display: block;
+  margin-top: -10px;
+  border-bottom: 8px solid #666666 !important;
+}
+
+/* About End */
