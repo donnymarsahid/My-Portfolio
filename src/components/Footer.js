@@ -10,31 +10,31 @@ const Footer = () => {
           <div className="about">
             <p>
               <Link to="/">
-                <a>About Me</a>
+                <p>About Me</p>
               </Link>
             </p>
             <p>
               <Link to="/">
-                <a>Contact Me</a>
+                <p>Contact Me</p>
               </Link>
             </p>
           </div>
           <div className="copyright">
             <p>
               <Link to="/">
-                <a>&copy; copyright 2021 | Donny Marsahid</a>
+                <p>&copy; copyright 2021 | Donny Marsahid</p>
               </Link>
             </p>
           </div>
           <div className="link-portfolio">
             <p className="text-end">
               <Link to="">
-                <a>Portfolio</a>
+                <p>Portfolio</p>
               </Link>
             </p>
             <p className="text-end">
               <Link to="/">
-                <a href="">Homepage</a>
+                <p>Homepage</p>
               </Link>
             </p>
           </div>

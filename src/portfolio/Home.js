@@ -82,7 +82,7 @@ const Home = () => {
               <div className="col-md-4">
                 <div className="box-portfolio">
                   <Link to="/">
-                    <img src={landingPage} className="mb-3" />
+                    <img src={landingPage} className="mb-3" alt="landing-page" />
                   </Link>
                   <Link to="/" className="h4">
                     <h4>Landing Page</h4>
@@ -106,7 +106,7 @@ const Home = () => {
               <div className="col-md-4">
                 <div className="box-portfolio">
                   <Link to="/">
-                    <img src={movies} className="mb-3" />
+                    <img src={movies} className="mb-3" alt="movies" />
                   </Link>
                   <Link to="/" className="h4">
                     <h4>Movies</h4>
@@ -130,7 +130,7 @@ const Home = () => {
               <div className="col-md-4">
                 <div className="box-portfolio">
                   <Link to="/">
-                    <img src={landingPage} className="mb-3" />
+                    <img src={landingPage} className="mb-3" alt="landing-page" />
                   </Link>
                   <Link to="/" className="h4">
                     <h4>Landing Page</h4>

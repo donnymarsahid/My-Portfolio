@@ -37,17 +37,17 @@ const Navbar = () => {
             <ul className="d-flex justify-content-around align-items-center">
               <li>
                 <Link to="/about" className="about-nav">
-                  <a>About</a>
+                  <p>About</p>
                 </Link>
               </li>
               <li>
                 <Link to="/">
-                  <a>Portfolio</a>
+                  <p>Portfolio</p>
                 </Link>
               </li>
               <li>
                 <Link to="/">
-                  <a>Contact</a>
+                  <p>Contact</p>
                 </Link>
               </li>
             </ul>
