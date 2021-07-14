@@ -315,12 +315,129 @@
   /* Pages About End */
 }
 
-/* Desktop and Tablet */
-@media (min-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
+  .responsive-page {
+    width: 100%;
+  }
+  nav .hamburger-menu {
+    display: none;
+  }
+  nav .link {
+    width: 45%;
+  }
+  nav .logo img {
+    width: 22px;
+  }
+  nav .logo ul li {
+    font-size: 20px;
+  }
+  nav .dark-mode i {
+    font-size: 20px;
+  }
+  .information .social-media.d-flex {
+    display: none !important;
+  }
+  nav .link ul {
+    display: flex;
+    justify-content: space-between !important;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  nav {
+    width: 100%;
+  }
+  nav .link ul li {
+    font-size: 14px;
+    height: 21px;
+  }
+  .jumbotron-header .col-md-6.d-flex {
+    justify-content: center !important;
+  }
+  body p {
+    font-size: 14px;
+  }
+  header p {
+    font-size: 15px;
+  }
+  header .heading-header img {
+    width: 50px;
+    padding: 0 8px 8px 0 !important;
+    margin: 0;
+  }
+  header .heading-header h3 {
+    font-size: 22px;
+  }
+  header .jumbotron-header .col-md-6.d-flex .float-bg {
+    display: none;
+  }
+  header .jumbotron-header .col-md-6.d-flex img {
+    width: 300px;
+  }
+  .information .box {
+    padding: 0 10px 0 10px;
+  }
+  .content .box-portfolio {
+    margin-bottom: 30px;
+  }
+  .ilustrator button.btn {
+    padding: 10px 15px 10px 0;
+    font-size: 15px;
+  }
+  .ilustrator .jumbotron {
+    margin-left: -60px;
+  }
+  footer .social-media-footer {
+    display: none;
+  }
+  .pages-about-me .p-box-text-about {
+    width: 118px;
+  }
+  .pages-about-me .p-box-text-experience {
+    width: 240px;
+  }
+  .pages-about-me .p-box-text-equipment {
+    width: 260px;
+  }
+  .pages-about-me .box-equipment {
+    margin-bottom: 30px;
+  }
+  .pages-about-me .box-equipment p {
+    text-align: center !important;
+  }
+  .pages-about-me .web-information .row .col-6 .content-info-web.show {
+    max-height: 250px !important;
+  }
+}
+
+/* Tablet to Desktop */
+@media (min-width: 769px) {
+  .pages-about-me .p-box-text-about {
+    width: 118px;
+  }
+
+  .pages-about-me .p-box-text-experience {
+    width: 270px;
+  }
+  .pages-about-me .p-box-text-equipment {
+    width: 280px;
+  }
   nav .hamburger-menu {
     display: none;
   }
   footer .social-media-footer {
     display: none;
+  }
+  nav ul li {
+    height: 27px;
+  }
+  nav .link {
+    width: 45%;
+  }
+  .content .box-portfolio {
+    margin-bottom: 30px;
+  }
+  .pages-about-me .box-equipment p {
+    text-align: center !important;
   }
 }

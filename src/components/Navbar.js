@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed-top d-flex align-items-center">
+      <nav className="fixed-top d-flex align-items-center shadow-sm">
         <div className="nav-bar d-flex justify-content-between container">
           <div className="logo d-flex">
             <Link to="/" className="link-logo-img home-nav">

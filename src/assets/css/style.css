@@ -14,6 +14,10 @@ nav {
   background-color: var(--yellow);
   height: 62px;
 }
+nav .logo ul li {
+  display: flex;
+  align-items: center;
+}
 
 nav .link-logo-name,
 nav .link-logo-img {
@@ -58,7 +62,7 @@ nav .link-logo-img {
   text-decoration: none;
   list-style: none;
 }
-.link ul li::after {
+.link ul li p::after {
   content: '';
   display: block;
   width: 0;
@@ -66,7 +70,7 @@ nav .link-logo-img {
   background: #ffffff;
   transition: width 0.4s;
 }
-.link ul li:hover::after {
+.link ul li p:hover::after {
   width: 65%;
   transition: width 0.4s;
 }
@@ -298,6 +302,10 @@ header p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
 }
 
+.content .box-portfolio {
+  margin-bottom: 30px;
+}
+
 .category-1 {
   margin-right: 5px;
 }
@@ -402,6 +410,7 @@ footer .container {
 /* Page Portfolio End */
 
 /* Page About Start */
+
 .pages-about-me {
   color: var(--black);
 }

@@ -53,8 +53,8 @@ const Home = () => {
                 <img src={information} alt="information" />
               </div>
               <p className="pt-4 pb-3">
-                Saya akan memperkenalkan beberapa <Link to="/">Portfolio</Link> yang saya buat, dari hasil kerja yang saya pelajari <br />
-                mengenai <strong>Web Design</strong> Maupun <strong>Web Develop</strong> , jika ingin bertanya <Link to="/">Kontak</Link> saya ya.. Selamat membaca :)
+                Saya akan memperkenalkan beberapa <Link to="/">Portfolio</Link> yang saya buat, dari hasil kerja yang saya pelajari mengenai <strong>Web Design</strong> Maupun <strong>Web Develop</strong> , jika ingin bertanya{' '}
+                <Link to="/">Kontak</Link> saya ya.. Selamat membaca :)
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Home = () => {
               <h3>Portfolio</h3>
             </div>
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-lg-4">
                 <div className="box-portfolio">
                   <Link to="/">
                     <img src={landingPage} className="mb-3" alt="landing-page" />
@@ -103,7 +103,7 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-lg-4">
                 <div className="box-portfolio">
                   <Link to="/">
                     <img src={movies} className="mb-3" alt="movies" />
@@ -127,7 +127,7 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-lg-4">
                 <div className="box-portfolio">
                   <Link to="/">
                     <img src={landingPage} className="mb-3" alt="landing-page" />
