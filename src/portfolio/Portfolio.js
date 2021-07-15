@@ -14,7 +14,7 @@ const Portfolio = () => {
         </div>
         <p class="text-muted mb-5">Beberapa portfolio dan link untuk preview</p>
         <div class="row content-row">
-          <div class="col-10">
+          <div class="col-12">
             <div class="row">
               <div class="col-md-6">
                 <img src={landingPage} alt="landingPage" width="100%" />
@@ -41,34 +41,6 @@ const Portfolio = () => {
                   agar enak dilihat dan mudah digunakan. Dibuat dengan <strong>Bootstrap</strong> dan manual <strong>CSS</strong> , serta Library <strong>Jquery</strong> .
                 </p>
                 <button class="btn btn-deploy">Preview</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 sidebar">
-            <div class="hastag-sticky">
-              <Link class="p-hastag">
-                <p>#Comment</p>
-              </Link>
-              <Link class="p-hastag">
-                <p>#Contact me</p>
-              </Link>
-              <Link class="p-hastag">
-                <p>#About me</p>
-              </Link>
-              <p class="txt-sosmed">Social Media</p>
-              <div class="social-media-sidebar">
-                <Link to="http://instagram.com/donnymrshd" className="icon-sosmed-sidebar">
-                  <i className="fab fa-instagram d-flex align-items-center justify-content-center"></i>
-                </Link>
-                <Link to="http://www.linkedin.com/donny-marsahid" className="icon-sosmed-sidebar">
-                  <i className="fab fa-linkedin d-flex align-items-center justify-content-center"></i>
-                </Link>
-                <Link to="https://github.com/donnymarsahid" className="icon-sosmed-sidebar">
-                  <i className="fab fa-github d-flex align-items-center justify-content-center"></i>
-                </Link>
-                <Link to="https://dribbble.com/donnymrshd" className="icon-sosmed-sidebar">
-                  <i className="fab fa-dribbble d-flex align-items-center justify-content-center"></i>
-                </Link>
               </div>
             </div>
           </div>
