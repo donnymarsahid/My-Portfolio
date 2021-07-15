@@ -10,3 +10,36 @@
 .jumbotron-portfolio img.jb-2 {
   display: none;
 }
+.content-portfolio {
+  margin-top: 100px;
+}
+
+.sidebar {
+  background-color: #f1f1f1da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.sidebar .p-hastag {
+  color: var(--black);
+}
+
+.sidebar .txt-sosmed {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.sidebar .social-media-sidebar .icon-sosmed-sidebar {
+  text-decoration: none;
+}
+.sidebar .social-media-sidebar i {
+  color: var(--black);
+  border: 2px solid var(--black);
+  font-size: 34px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}

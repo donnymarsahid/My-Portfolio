@@ -111,8 +111,18 @@ body.darkmode .jumbotron-portfolio img.jb-2 {
 body.darkmode .mobile-menu {
   background-color: #3e3d3d;
 }
+
 body.darkmode footer .social-media-footer i {
+  font-size: 28px;
+  border: 2px solid white;
+  padding: 6px;
   color: white;
-  border: 1px solid white;
-  background-color: #3e3d3d;
+  margin: 0 3px 0 3px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+body.darkmode footer .social-media-footer i:hover {
+  border: 2px solid white;
+  color: #3e3d3d;
+  background-color: white;
 }

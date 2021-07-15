@@ -7,18 +7,6 @@ import information from '../assets/img/information.svg';
 import landingPage from '../assets/img/landingpage.svg';
 import movies from '../assets/img/movies.svg';
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
-
-// Parralax icons
-$(window).scroll(function () {
-  let wScroll = $(this).scrollTop();
-
-  if (wScroll > 460) {
-    $('.information .social-media').addClass('scroll');
-  } else {
-    $('.information .social-media').removeClass('scroll');
-  }
-});
 
 const Home = () => {
   return (

@@ -201,10 +201,24 @@ header p {
   margin-bottom: 20px;
   border-radius: 50px;
   border: 2.8px solid var(--yellow);
+  transition: 0.2s;
+}
+.social-media i:hover {
+  border: 2.8px solid var(--yellow);
+  background-color: var(--yellow);
+  color: white;
 }
 /* Information End */
 
 /* Content Start */
+.content p {
+  font-size: 14px !important;
+  margin: 0 0 4px;
+}
+.content p.text-muted {
+  font-size: 13px !important;
+  margin: 0 0 4px;
+}
 .content h3 {
   font-weight: 500;
 }
@@ -382,6 +396,22 @@ footer a:hover {
 }
 footer .container {
   height: 100%;
+}
+footer .social-media-footer {
+  display: flex;
+}
+footer .social-media-footer i {
+  font-size: 28px;
+  border: 2px solid var(--black);
+  padding: 6px;
+  margin: 0 3px 0 3px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+footer .social-media-footer i:hover {
+  border: 2px solid var(--yellow);
+  color: white;
+  background-color: var(--yellow);
 }
 /* Footer End */
 
