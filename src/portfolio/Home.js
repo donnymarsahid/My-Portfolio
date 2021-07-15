@@ -4,8 +4,8 @@ import '../assets/css/responsive.css';
 import bye from '../assets/img/bye.svg';
 import logoHeader from '../assets/img/logo-header.svg';
 import information from '../assets/img/information.svg';
-import landingPage from '../assets/img/landingpage.svg';
-import movies from '../assets/img/movies.svg';
+import landingPage from '../assets/img/landingpage.png';
+import movies from '../assets/img/movies.png';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
                     <h3>Halo selamat datang!</h3>
                   </div>
                   <p>
-                    Perkenalkan nama saya Donny Marsahid <br />
+                    Perkenalkan nama saya <strong>Donny Marsahid</strong> <br />
                   </p>
                 </div>
                 <p className="pt-3">Ini adalah website personal untuk memperkenalkan biodata diri saya, dan Portfolio yang saya buat</p>
@@ -34,6 +34,7 @@ const Home = () => {
             </div>
           </div>
         </header>
+        <div className="vector-header img-fluid" />
         <div class="container-custom">
           <div className="information d-flex">
             <div className="container text-center">
@@ -83,7 +84,7 @@ const Home = () => {
                       <img src={landingPage} className="mb-3" alt="landing-page" />
                     </Link>
                     <Link to="/" className="h4">
-                      <h4>Landing Page</h4>
+                      <h4>Boola - Landing Page</h4>
                     </Link>
                     <p>pembuatan website landing page</p>
                     <p className="text-muted posted">
@@ -98,6 +99,7 @@ const Home = () => {
                       <button className="btn btn-details mt-2">
                         <i className="fas fa-info-circle"></i> Detail
                       </button>
+                      <button className="btn btn-details mt-2">Preview</button>
                     </Link>
                   </div>
                 </div>
@@ -107,7 +109,7 @@ const Home = () => {
                       <img src={movies} className="mb-3" alt="movies" />
                     </Link>
                     <Link to="/" className="h4">
-                      <h4>Movies</h4>
+                      <h4>DonMovies - Details Movies Apps</h4>
                     </Link>
                     <p>pembuatan website Movies</p>
                     <p className="text-muted posted">
@@ -122,30 +124,7 @@ const Home = () => {
                       <button className="btn btn-details mt-2">
                         <i className="fas fa-info-circle"></i> Detail
                       </button>
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="box-portfolio">
-                    <Link to="/">
-                      <img src={landingPage} className="mb-3" alt="landing-page" />
-                    </Link>
-                    <Link to="/" className="h4">
-                      <h4>Landing Page</h4>
-                    </Link>
-                    <p>pembuatan website landing page</p>
-                    <p className="text-muted posted">
-                      Jul, 7 2021 <br />
-                      <i className="fas fa-user-circle"></i> by Donny Marsahid
-                    </p>
-                    <div className="category d-flex">
-                      <div className="category-1">web develop</div>
-                      <div className="category-2">web design</div>
-                    </div>
-                    <Link to="/">
-                      <button className="btn btn-details mt-2">
-                        <i className="fas fa-info-circle"></i> Detail
-                      </button>
+                      <button className="btn btn-details mt-2">Preview</button>
                     </Link>
                   </div>
                 </div>

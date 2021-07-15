@@ -1,9 +1,12 @@
 /* Dark Mode */
 
 /* Start Homepage */
-body.darkmode,
-body.darkmode nav {
+body.darkmode {
   background-color: #3e3d3d;
+}
+body.darkmode nav {
+  backdrop-filter: blur(10px) !important;
+  height: 62px;
 }
 body.darkmode p,
 body.darkmode .p,
@@ -14,6 +17,22 @@ body.darkmode h4 {
   color: white !important;
 }
 
+body.darkmode .link ul li p::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: white;
+  transition: width 0.4s;
+}
+
+body.darkmode .link ul li p:hover::after {
+  width: 65%;
+  transition: width 0.4s;
+}
+body.darkmode nav .hamburger-menu {
+  color: white;
+}
 body.darkmode .box-equipment i {
   color: white !important;
 }
@@ -100,16 +119,17 @@ body.darkmode .p-box-text-equipment h3::after {
   margin-top: -10px;
   border-bottom: 8px solid #666666 !important;
 }
-body.darkmode .jumbotron-portfolio img.jb-1 {
-  display: none;
-}
-body.darkmode .jumbotron-portfolio img.jb-2 {
-  display: block;
-}
 /* About End */
 
 body.darkmode .mobile-menu {
   background-color: #3e3d3d;
+}
+
+body.darkmode .content-row .row .btn-deploy:hover {
+  background-color: #868686 !important;
+  border: 2px solid #fed02800;
+  font-weight: 500;
+  color: var(--yellow);
 }
 
 body.darkmode footer .social-media-footer i {
@@ -125,4 +145,37 @@ body.darkmode footer .social-media-footer i:hover {
   border: 2px solid white;
   color: #3e3d3d;
   background-color: white;
+}
+
+body.darkmode i.fas.fa-moon,
+body.darkmode i.fas.fa-sun {
+  color: white;
+}
+
+body.darkmode .vector-header.img-fluid {
+  background-image: url('../img/Vector (2).svg');
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+}
+
+body.darkmode nav .logo ul li {
+  color: white;
+}
+
+body.darkmode nav .logo .logo-navbar {
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/logo.svg');
+  background-size: cover;
+}
+body.darkmode .box-portfolio .btn-preview-img {
+  border: 2px solid white;
+  color: white;
+}
+
+body.darkmode .box-portfolio .btn-preview-img:hover {
+  border: 2px solid white;
+  background-color: white !important;
+  color: var(--black) !important;
 }

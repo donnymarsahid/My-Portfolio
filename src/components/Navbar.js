@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
 import '../assets/css/darkmode.css';
-import logoDonny from '../assets/img/logo.svg';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
 
@@ -56,7 +55,7 @@ const Navbar = () => {
         <div className="nav-bar d-flex justify-content-between container">
           <div className="logo d-flex">
             <Link to="/" className="link-logo-img home-nav">
-              <img src={logoDonny} alt="logo-donny" />
+              <div className="logo-navbar" />
             </Link>
             <Link to="/" className="link-logo-name home-nav">
               <ul className="d-flex align-items-center">

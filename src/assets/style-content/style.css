@@ -7,11 +7,62 @@
   margin-top: 62px;
 }
 
-.jumbotron-portfolio img.jb-2 {
-  display: none;
-}
 .content-portfolio {
   margin-top: 100px;
+}
+
+.content-row .row {
+  margin-bottom: 150px;
+}
+
+.content-row .row .btn-deploy {
+  background-color: var(--yellow);
+  border: 2px solid #fed02800;
+
+  font-weight: 500;
+}
+
+.content-row .social-media-sidebar i:hover {
+  background-color: var(--yellow);
+  color: white;
+  border: 2px solid var(--yellow);
+}
+
+.heading-text-portfolio {
+  width: 110px;
+  margin-top: 50px;
+}
+
+.heading-text-portfolio h3::after {
+  content: '';
+  display: block;
+  margin-top: -10px;
+  border-bottom: 8px solid var(--yellow);
+}
+
+.content-row .p-hastag {
+  text-decoration: none;
+  font-weight: 500;
+}
+.content-row .p-hastag:hover {
+  color: var(--yellow);
+}
+.content-row .hastag-sticky {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content-row .row img {
+  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.253);
+}
+.content-row .row .btn-deploy:hover {
+  background-color: transparent;
+  border: 2px solid var(--yellow);
+  font-weight: 500;
+  color: var(--yellow);
 }
 
 .sidebar {
