@@ -345,8 +345,12 @@ header p {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.137);
 }
 
+.content .row .box-portfolio {
+  transform: scale(0.99);
+}
 .content .row .box-portfolio:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+  transform: scale(1);
 }
 
 .content .box-portfolio {

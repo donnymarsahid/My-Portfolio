@@ -34,7 +34,7 @@ const Home = () => {
             </div>
           </div>
         </header>
-        <div className="vector-header img-fluid" />
+        <div className="vector-header img-fluid " />
         <div class="container-custom">
           <div className="information d-flex">
             <div className="container text-center">
