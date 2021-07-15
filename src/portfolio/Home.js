@@ -22,7 +22,7 @@ const Home = () => {
                     <h3>Halo selamat datang!</h3>
                   </div>
                   <p>
-                    Perkenalkan nama saya <strong>Donny Marsahid</strong> <br />
+                    Perkenalkan saya <strong>Donny Marsahid</strong> <br />
                   </p>
                 </div>
                 <p className="pt-3">Ini adalah website personal untuk memperkenalkan biodata diri saya, dan Portfolio yang saya buat</p>

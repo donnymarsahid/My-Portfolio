@@ -1,5 +1,5 @@
 import React from 'react';
-import donny from '../assets/img/donny.svg';
+import donny from '../assets/img/donny.png';
 import '../assets/css/style.css';
 import html5 from '../assets/img/logo/html5.svg';
 import bootstrap from '../assets/img/logo/bootstrap.svg';
