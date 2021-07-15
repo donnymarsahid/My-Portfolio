@@ -178,13 +178,36 @@ header p {
   padding: 20px;
   box-sizing: border-box;
 }
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 65px;
+  margin-top: 20px;
+  position: sticky;
+  top: 150px;
+}
+
+.social-media .icon-sosmed {
+  text-decoration: none;
+}
+.social-media i {
+  width: 55px;
+  height: 55px;
+  font-size: 36px;
+  color: var(--yellow);
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: 2.8px solid var(--yellow);
+}
 /* Information End */
 
 /* Content Start */
 .content h3 {
   font-weight: 500;
 }
-
 .content {
   color: var(--black);
 }
