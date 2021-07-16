@@ -3,7 +3,6 @@ import '../assets/style-content/style.css';
 import '../assets/css/responsive.css';
 import landingPage from '../assets/img/landingpage.png';
 import movies from '../assets/img/movies.png';
-import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   return (

@@ -182,7 +182,7 @@ header p {
 }
 .container .box {
   height: 100px;
-  background-color: #f1f1f1;
+  background-color: #f4f4f4;
   height: 200px;
 }
 .box .logo-information img {
@@ -371,69 +371,6 @@ header p {
 }
 
 /* Content End */
-
-/* Ilustrator Start */
-
-.ilustrator {
-  margin: 100px 0 100px 0;
-  width: 100%;
-  position: relative;
-}
-
-.ilustrator .link-icon {
-  text-decoration: none;
-  color: var(--black);
-}
-
-.ilustrator .jumbotron {
-  height: 400px;
-  margin-top: 130px;
-  width: 90%;
-  margin-bottom: 100px;
-}
-.ilustrator .jumbotron {
-  background-image: url('../img/ilustrator.svg');
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-}
-
-.ilustrator .button-about button,
-.ilustrator .button-portfolio button,
-.ilustrator .button-contact button {
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  padding: 15px 20px 15px 0;
-  transition: 0.2s;
-  color: var(--black);
-  font-weight: 500;
-}
-
-.ilustrator button i {
-  margin: 0 10px 0 20px;
-  font-size: 25px;
-  color: var(--yellow);
-  transition: 0.2s;
-}
-
-.ilustrator button:hover {
-  color: white;
-  background-color: var(--yellow);
-}
-.ilustrator button:hover i {
-  color: white;
-}
-
-.ilustrator .col-md-8 {
-  display: flex;
-  justify-content: space-evenly;
-  height: 100%;
-}
-
-/* Ilustrator End */
 
 /* Footer Start */
 footer {
@@ -671,3 +608,38 @@ footer .social-media-footer i:hover {
   border-bottom: 8px solid var(--yellow);
 }
 /* Page Experience End */
+
+/* Ilustrator Start */
+.ilustrator.jumbotron {
+  background-image: url('../img/ilustrator.svg');
+  background-size: cover;
+  height: 600px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.ilustrator.jumbotron .btn-ilustrator {
+  background-color: var(--yellow);
+  font-weight: 500;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.151);
+  border: 2px solid var(--yellow);
+  transition: 0.2s;
+}
+.ilustrator.jumbotron .btn-ilustrator:hover {
+  background-color: transparent;
+  font-weight: 500;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--yellow);
+}
+
+.ilustrator.jumbotron .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ilustrator.jumbotron .container {
+  width: 70%;
+}
+/* Ilustrator End */

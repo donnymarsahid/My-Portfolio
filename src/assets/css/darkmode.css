@@ -131,6 +131,19 @@ body.darkmode .content-row .row .btn-deploy:hover {
   font-weight: 500;
   color: var(--yellow);
 }
+body.darkmode .ilustrator.jumbotron .btn-ilustrator {
+  font-weight: 500;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.151);
+  transition: 0.2s;
+  background-color: #666666 !important;
+  border: 2px solid #666666;
+}
+body.darkmode .ilustrator.jumbotron .btn-ilustrator:hover {
+  font-weight: 500;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.151);
+  background-color: #808080 !important;
+  border: 2px solid #808080;
+}
 
 body.darkmode footer .social-media-footer i {
   font-size: 28px;

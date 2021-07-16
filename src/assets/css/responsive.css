@@ -39,6 +39,39 @@
   }
 }
 @media (max-width: 576px) {
+  .ilustrator.jumbotron .btn-ilustrator:hover {
+    background-color: transparent;
+    font-weight: 500;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--yellow);
+    color: var(--black);
+  }
+  .ilustrator.jumbotron .container {
+    width: 90%;
+  }
+  .ilustrator.jumbotron .row {
+    display: flex !important;
+  }
+  .ilustrator.jumbotron .ilus-human img {
+    width: 300px;
+  }
+  .ilustrator.jumbotron .ilus-human {
+    width: 50%;
+  }
+  .ilustrator.jumbotron .ilus-git {
+    width: 50%;
+  }
+  .ilustrator.jumbotron .ilus-git .button {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+  }
+  .ilustrator.jumbotron .button .btn {
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 15px;
+    width: 100px;
+  }
   .box-portfolio h4 {
     font-size: 16px !important;
   }
@@ -491,10 +524,32 @@
   .ilustrator button.btn {
     margin-left: 10px;
   }
+
+  .ilustrator.jumbotron .container {
+    width: 90%;
+  }
+
+  .ilustrator.jumbotron .button .btn {
+    padding: 0;
+  }
+
+  .ilustrator.jumbotron .ilus-human img {
+    width: 350px;
+  }
+  .ilustrator.jumbotron .btn-ilustrator:hover {
+    background-color: transparent;
+    font-weight: 500;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--yellow);
+  }
 }
 
 /* Tablet to Desktop */
-@media (min-width: 769px) {
+
+@media (min-width: 768px) {
+  .ilustrator.jumbotron .button .btn {
+    padding: 5px 8px 5px 8px;
+  }
   .jumbotron-header {
     margin-top: 100px;
   }

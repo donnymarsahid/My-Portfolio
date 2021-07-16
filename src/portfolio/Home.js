@@ -6,6 +6,8 @@ import logoHeader from '../assets/img/logo-header.svg';
 import information from '../assets/img/information.svg';
 import landingPage from '../assets/img/landingpage.png';
 import movies from '../assets/img/movies.png';
+import ilusHuman from '../assets/img/ilus-human.svg';
+import ilusGit from '../assets/img/ilus-git.svg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -137,38 +139,25 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        <div className="ilustrator container m-auto">
-          <div className="jumbotron jumbotron-fluid">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-4"></div>
-                <div className="col-md-8">
-                  <div className="button-about">
-                    <Link to="/" className="link-icon">
-                      <button className="btn">
-                        <i className="fas fa-user"></i>
-                        About
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="button-portfolio">
-                    <Link to="/" className="link-icon">
-                      <button className="btn">
-                        <i className="fas fa-file"></i>
-                        Portfolio
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="button-contact">
-                    <Link to="/" className="link-icon">
-                      <button className="btn">
-                        <i className="fas fa-envelope"></i>
-                        Contact
-                      </button>
-                    </Link>
-                  </div>
-                </div>
+      </div>
+      <div class="ilustrator jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 ilus-human">
+              <img src={ilusHuman} alt="ilustrator" />
+            </div>
+            <div class="col-sm-6 ilus-git text-center">
+              <img src={ilusGit} alt="ilustrator" width="100%" className="mb-5" />
+              <div class="button d-flex justify-content-between">
+                <button className="btn btn-ilustrator">
+                  <i className="fas fa-user"></i> Tentang
+                </button>
+                <button className="btn btn-ilustrator">
+                  <i className="fas fa-file"></i> Portfolio
+                </button>
+                <button className="btn btn-ilustrator">
+                  <i className="fas fa-envelope"></i> Kontak
+                </button>
               </div>
             </div>
           </div>
