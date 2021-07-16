@@ -7,13 +7,13 @@ const Footer = () => {
       <footer>
         <div className="container d-flex align-items-center justify-content-between">
           <div className="about">
-            <a href="/#about">
+            <a href="/about">
               <p>
                 <p>About Me</p>
               </p>
             </a>
             <p>
-              <a href="/#contact">
+              <a href="/contact">
                 <p>Contact Me</p>
               </a>
             </p>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <div className="link-portfolio">
             <p className="text-end">
-              <a href="/#portfolio">
+              <a href="/portfolio">
                 <p>Portfolio</p>
               </a>
             </p>
