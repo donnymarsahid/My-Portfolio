@@ -17,8 +17,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
-const images = [logoDM, logoBoola, logoSushi, logoCom];
-const imagesVector = [vectorAnsell, vectorDny, vectorKny, faceVector];
+const images = [logoDM, logoSushi, logoBoola, logoCom];
+const imagesVector = [vectorAnsell, vectorDny, faceVector, vectorKny];
 
 // Slick
 const NextArrow = ({ onClick }) => {
@@ -145,8 +145,12 @@ const Portfolio = () => {
         <div className="row mb-5">
           <div class="col-md-6">
             <div class="box-details">
-              <img src={shutterstock} alt="shutterstock" width="100%" />
-              <h4 className="ms-3 mt-3">Portfolio - Shutterstock</h4>
+              <a href="https://www.shutterstock.com/g/DonPics?rid=292607883">
+                <img src={shutterstock} alt="shutterstock" width="100%" />
+              </a>
+              <a href="https://www.shutterstock.com/g/DonPics?rid=292607883" style={{ color: '#3e3d3d', textDecoration: 'none' }}>
+                <h4 className="ms-3 mt-3">Portfolio - Shutterstock</h4>
+              </a>
               <p className="text-muted  ms-3">
                 Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
               </p>
@@ -154,7 +158,9 @@ const Portfolio = () => {
                 <div class="category-1">street</div>
                 <div class="category-2">activity</div>
               </div>
-              <button class="btn btn-box mt-3 ms-3 mb-3">Preview</button>
+              <a href="https://www.shutterstock.com/g/DonPics?rid=292607883">
+                <button class="btn btn-box mt-3 ms-3 mb-3">Preview</button>
+              </a>
             </div>
           </div>
         </div>

@@ -1,0 +1,42 @@
+:root {
+  --black: #3e3d3d;
+  --yellow: #fecf28;
+}
+
+.container-contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-contact span:hover {
+  color: #d6b12b;
+}
+
+.container-contact a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.container-contact .social-media-contact i {
+  font-size: 35px;
+  border: 2px solid var(--black);
+  border-radius: 100px;
+  padding: 8px;
+  margin: 20px 9px 7px 9px;
+  transition: 0.2s;
+}
+
+.container-contact .social-media-contact i:hover {
+  background-color: var(--yellow);
+  color: white;
+  border: 2px solid var(--yellow);
+}
+
+.container-contact .social-media-contact {
+  display: flex;
+}

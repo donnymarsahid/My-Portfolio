@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
 import bye from '../assets/img/bye.svg';
@@ -9,8 +9,14 @@ import movies from '../assets/img/movies.png';
 import ilusHuman from '../assets/img/ilus-human.svg';
 import ilusGit from '../assets/img/ilus-git.svg';
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
 const Home = () => {
+  useEffect(() => {
+    $('.home-nav').on('click', function () {
+      window.scrollTo(0, 0);
+    });
+  }, []);
   return (
     <>
       <div class="responsive-page">
@@ -46,11 +52,11 @@ const Home = () => {
                 </div>
                 <p className="pt-4 pb-3">
                   Saya akan memperkenalkan beberapa{' '}
-                  <Link to="/" className="p">
+                  <Link to="/portfolio" className="p home-nav">
                     Portfolio
                   </Link>{' '}
                   yang saya buat, dari hasil kerja yang saya pelajari mengenai <strong>Web Design</strong> Maupun <strong>Web Develop</strong> , jika ingin bertanya{' '}
-                  <Link to="/" className="p">
+                  <Link to="/contact" className="p home-nav">
                     Kontak
                   </Link>{' '}
                   saya ya.. Selamat membaca :)
@@ -60,18 +66,18 @@ const Home = () => {
           </div>
         </div>
         <div class="social-media">
-          <Link to="http://instagram.com/donnymrshd" className="icon-sosmed">
+          <a href="http://instagram.com/donnymrshd" className="icon-sosmed">
             <i className="fab fa-instagram d-flex align-items-center justify-content-center"></i>
-          </Link>
-          <Link to="http://www.linkedin.com/donny-marsahid" className="icon-sosmed">
+          </a>
+          <a href="http://www.linkedin.com/donny-marsahid" className="icon-sosmed">
             <i className="fab fa-linkedin d-flex align-items-center justify-content-center"></i>
-          </Link>
-          <Link to="https://github.com/donnymarsahid" className="icon-sosmed">
+          </a>
+          <a href="https://github.com/donnymarsahid" className="icon-sosmed">
             <i className="fab fa-github d-flex align-items-center justify-content-center"></i>
-          </Link>
-          <Link to="https://dribbble.com/donnymrshd" className="icon-sosmed">
+          </a>
+          <a href="https://dribbble.com/donnymrshd" className="icon-sosmed">
             <i className="fab fa-dribbble d-flex align-items-center justify-content-center"></i>
-          </Link>
+          </a>
         </div>
         <div class="container-custom-portfolio">
           <div className="content mb-5">
@@ -132,8 +138,8 @@ const Home = () => {
                 </div>
               </div>
               <div className="button text-center mt-5">
-                <Link to="/">
-                  <button className="btn btn-read-more">lihat selengkapnya</button>
+                <Link to="/portfolio">
+                  <button className="btn btn-read-more home-nav">lihat selengkapnya</button>
                 </Link>
               </div>
             </div>
@@ -148,15 +154,23 @@ const Home = () => {
               <div class="col-sm-6 ilus-git text-center">
                 <img src={ilusGit} alt="ilustrator" width="100%" className="mb-5" />
                 <div class="button d-flex justify-content-between">
-                  <button className="btn btn-ilustrator">
-                    <i className="fas fa-user"></i> Tentang
-                  </button>
-                  <button className="btn btn-ilustrator">
-                    <i className="fas fa-file"></i> Portfolio
-                  </button>
-                  <button className="btn btn-ilustrator">
-                    <i className="fas fa-envelope"></i> Kontak
-                  </button>
+                  <Link to="/about">
+                    {' '}
+                    <button className="btn btn-ilustrator home-nav">
+                      <i className="fas fa-user"></i> Tentang
+                    </button>
+                  </Link>
+                  <Link to="/portfolio">
+                    {' '}
+                    <button className="btn btn-ilustrator home-nav">
+                      <i className="fas fa-file"></i> Portfolio
+                    </button>
+                  </Link>
+                  <Link to="/contact">
+                    <button className="btn btn-ilustrator home-nav">
+                      <i className="fas fa-envelope"></i> Kontak
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

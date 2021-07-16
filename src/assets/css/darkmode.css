@@ -228,3 +228,23 @@ body.darkmode .arrow {
   color: white;
   z-index: 10;
 }
+
+body.darkmode .social-media-contact i {
+  color: white;
+  border: 2px solid white;
+  transition: 0.2s;
+}
+body.darkmode .social-media-contact i:hover {
+  color: #3e3d3d;
+  background-color: white;
+  border: 2px solid white;
+}
+
+body.darkmode .container-contact .email,
+body.darkmode .container-contact .email span {
+  color: white;
+}
+body.darkmode .container-contact .email:hover,
+body.darkmode .container-contact .email:hover span {
+  color: #be9d26;
+}

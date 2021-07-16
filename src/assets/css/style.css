@@ -589,6 +589,13 @@ footer .social-media-footer i:hover {
   width: 70%;
   margin: auto;
 }
+.work-experience .box-experience a {
+  color: #3e3d3d;
+}
+.work-experience .box-experience a:hover {
+  color: #e9c02a;
+}
+
 .work-experience .box-experience {
   background-color: #f1f1f1;
   padding: 10px;
@@ -620,13 +627,13 @@ footer .social-media-footer i:hover {
   margin-bottom: 50px;
   width: 100%;
 }
-
 .ilustrator.jumbotron .btn-ilustrator {
   background-color: var(--yellow);
   font-weight: 500;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.151);
   border: 2px solid var(--yellow);
   transition: 0.2s;
+  position: relative;
 }
 .ilustrator.jumbotron .btn-ilustrator:hover {
   background-color: transparent;

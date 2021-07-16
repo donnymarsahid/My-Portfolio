@@ -80,7 +80,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/">
+                <Link to="/contact">
                   <p>Contact</p>
                 </Link>
               </li>

@@ -106,7 +106,10 @@ const About = () => {
                 <img src={nobu} alt="nobu" />
               </div>
               <div className="col-10">
-                <p className="text-decoration-underline">Bank National Nobu</p>
+                <a href="https://www.nobubank.com/">
+                  {' '}
+                  <p className="text-decoration-underline">Bank National Nobu</p>
+                </a>
                 <p>
                   Sales Merchant <br />
                   Jun, 2019
@@ -120,7 +123,10 @@ const About = () => {
                 <img src={kotex} alt="kotex" />
               </div>
               <div className="col-10">
-                <p className="text-decoration-underline">Kotex Mandiri</p>
+                <a href="https://databank-kpap.jakarta.go.id/daftar-cso-mitra/detail/71-yayasan-kotex-mandiri-komunitas-texas-">
+                  {' '}
+                  <p className="text-decoration-underline">Kotex Mandiri</p>{' '}
+                </a>
                 <p>
                   Staff lembaga kesehatan PKM Tambora <br />
                   Jan, 2020 s.d Jan, 2021
@@ -140,13 +146,13 @@ const About = () => {
                   <div className="content-info-web">
                     <div className="row p-3">
                       <div className="col-6  one p-2">
-                        <p>Built with</p>
+                        <p className="fw-bold">Built with :</p>
                       </div>
                       <div className="col-6 two p-2">
                         <p> React Js</p>
                       </div>
                       <div className="col-6 three p-2">
-                        <p>Deploy With</p>
+                        <p className="fw-bold">Deploy With :</p>
                       </div>
                       <div className="col-6 four p-2">
                         <p>Netlify</p>
