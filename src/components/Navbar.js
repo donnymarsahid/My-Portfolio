@@ -100,10 +100,10 @@ const Navbar = () => {
           <Link to="/about" className="linked about-nav">
             <p>About</p>
           </Link>
-          <Link to="/portfolio" className="linked">
+          <Link to="/portfolio" className="linked home-nav">
             <p>Portfolio</p>
           </Link>
-          <Link to="/contact" className="linked">
+          <Link to="/contact" className="linked home-nav">
             <p>Contact</p>
           </Link>
         </div>
