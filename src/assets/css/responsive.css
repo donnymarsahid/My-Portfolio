@@ -39,6 +39,12 @@
   }
 }
 @media (max-width: 576px) {
+  .container-portfolio h4 {
+    font-size: 18px !important;
+  }
+  .container-portfolio {
+    font-size: 14px !important;
+  }
   .box-text-shutterstock {
     width: 155px !important;
   }

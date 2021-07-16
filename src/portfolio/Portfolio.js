@@ -85,7 +85,7 @@ const Portfolio = () => {
               <h4 className="ms-3 mt-3">Boola - Landing Page</h4>
               <p className="text-muted  ms-3">pembuatan website landing page</p>
               <p className="text-muted  ms-3">
-                Jul, 7 2021 <br /> by Donny Marsahid{' '}
+                Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
               </p>
               <div class="category  ms-3">
                 <div class="category-1">web develop</div>
@@ -101,7 +101,7 @@ const Portfolio = () => {
               <h4 className="ms-3 mt-3">DonMovies - Movies Details Apps</h4>
               <p className="text-muted  ms-3">pembuatan website details film</p>
               <p className="text-muted  ms-3">
-                Jul, 7 2021 <br /> by Donny Marsahid{' '}
+                Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
               </p>
               <div class="category  ms-3">
                 <div class="category-1">web develop</div>
@@ -148,7 +148,7 @@ const Portfolio = () => {
               <img src={shutterstock} alt="shutterstock" width="100%" />
               <h4 className="ms-3 mt-3">Portfolio - Shutterstock</h4>
               <p className="text-muted  ms-3">
-                Jul, 7 2021 <br /> by Donny Marsahid{' '}
+                Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
               </p>
               <div class="category  ms-3">
                 <div class="category-1">street</div>
