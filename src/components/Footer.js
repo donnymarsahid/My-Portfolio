@@ -1,40 +1,47 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../assets/css/style.css';
+import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
 const Footer = () => {
+  useEffect(() => {
+    $('.home-nav').on('click', function () {
+      window.scrollTo(0, 0);
+    });
+  }, []);
   return (
     <>
       <footer>
         <div className="container d-flex align-items-center justify-content-between">
           <div className="about">
-            <a href="/about">
-              <p>
-                <p>About Me</p>
-              </p>
-            </a>
             <p>
-              <a href="/contact">
+              <Link to="/about" className="home-nav">
+                <p>About Me</p>
+              </Link>
+            </p>
+            <p>
+              <Link to="/contact" className="home-nav">
                 <p>Contact Me</p>
-              </a>
+              </Link>
             </p>
           </div>
           <div className="copyright">
             <p>
-              <a href="/#">
+              <Link to="/" className="home-nav">
                 <p>&copy; copyright 2021 | Donny Marsahid</p>
-              </a>
+              </Link>
             </p>
           </div>
           <div className="link-portfolio">
             <p className="text-end">
-              <a href="/portfolio">
+              <Link to="/portfolio" className="home-nav">
                 <p>Portfolio</p>
-              </a>
+              </Link>
             </p>
             <p className="text-end">
-              <a href="/#">
+              <Link to="/" className="home-nav">
                 <p>Homepage</p>
-              </a>
+              </Link>
             </p>
           </div>
           <div class="social-media-footer">

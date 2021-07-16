@@ -14,6 +14,7 @@ import ilustrator from '../assets/img/logo/ilustrator.svg';
 import nobu from '../assets/img/logo/nobu.svg';
 import kotex from '../assets/img/logo/kotex.png';
 import $ from 'jquery';
+import Footer from '../components/Footer';
 
 function dropDown() {
   $('.fas').toggleClass('fa-angle-right');
@@ -219,6 +220,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

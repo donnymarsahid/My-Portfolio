@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './portfolio/About';
 import Home from './portfolio/Home';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Portfolio from './portfolio/Portfolio';
 import Contact from './portfolio/Contact';
 
@@ -18,7 +17,6 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </Router>
-      <Footer />
     </>
   );
 }

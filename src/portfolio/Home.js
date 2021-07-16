@@ -10,6 +10,7 @@ import ilusHuman from '../assets/img/ilus-human.svg';
 import ilusGit from '../assets/img/ilus-git.svg';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
+import Footer from '../components/Footer';
 
 const Home = () => {
   useEffect(() => {
@@ -177,6 +178,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

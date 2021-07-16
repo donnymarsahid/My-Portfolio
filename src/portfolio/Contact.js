@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/style-content/contact.css';
 import '../assets/css/darkmode.css';
+import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
@@ -26,6 +27,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

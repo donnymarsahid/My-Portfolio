@@ -16,6 +16,7 @@ import faceVector from '../assets/imgLogo/vector/5.jpg';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
+import Footer from '../components/Footer';
 
 const images = [logoDM, logoSushi, logoBoola, logoCom];
 const imagesVector = [vectorAnsell, vectorDny, faceVector, vectorKny];
@@ -165,6 +166,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
