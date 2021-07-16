@@ -3,6 +3,7 @@ import '../assets/style-content/style.css';
 import '../assets/css/responsive.css';
 import landingPage from '../assets/img/landingpage.png';
 import movies from '../assets/img/movies.png';
+import shutterstock from '../assets/img/shutterstock.png';
 import Slider from 'react-slick';
 import logoDM from '../assets/imgLogo/logo/2.jpg';
 import logoBoola from '../assets/imgLogo/logo/3.jpg';
@@ -69,7 +70,8 @@ const Portfolio = () => {
           </div>
           <div class="box-introduce-portfolio">
             <p className="text-muted">
-              Koleksi beberapa portfolio mulai dari <strong>website</strong>, design <strong>logo</strong> dan <strong>vector</strong>, tersedia link untuk <strong>Preview</strong> dan <strong>Details</strong>{' '}
+              Koleksi beberapa portfolio mulai dari <strong>website</strong>, design <strong>logo</strong>, <strong>vector</strong> dan Foto <strong>shutterstock</strong>, tersedia link untuk <strong>Preview</strong> dan{' '}
+              <strong>Details</strong>{' '}
             </p>
           </div>
         </div>
@@ -135,6 +137,26 @@ const Portfolio = () => {
               </div>
             ))}
           </Slider>
+        </div>
+        <hr />
+        <div className="box-text box-text-shutterstock mb-4 mt-5" style={{ width: '180px' }}>
+          <h3>Shutterstock</h3>
+        </div>
+        <div className="row mb-5">
+          <div class="col-md-6">
+            <div class="box-details">
+              <img src={shutterstock} alt="shutterstock" width="100%" />
+              <h4 className="ms-3 mt-3">Portfolio - Shutterstock</h4>
+              <p className="text-muted  ms-3">
+                Jul, 7 2021 <br /> by Donny Marsahid{' '}
+              </p>
+              <div class="category  ms-3">
+                <div class="category-1">street</div>
+                <div class="category-2">activity</div>
+              </div>
+              <button class="btn btn-box mt-3 ms-3 mb-3">Preview</button>
+            </div>
+          </div>
         </div>
       </div>
     </>

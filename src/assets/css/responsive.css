@@ -39,6 +39,9 @@
   }
 }
 @media (max-width: 576px) {
+  .box-text-shutterstock {
+    width: 155px !important;
+  }
   .box-text-vector {
     width: 175px !important;
   }
