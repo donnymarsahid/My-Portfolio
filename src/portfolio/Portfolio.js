@@ -15,7 +15,6 @@ import vectorKny from '../assets/imgLogo/vector/4.jpg';
 import faceVector from '../assets/imgLogo/vector/5.jpg';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import Footer from '../components/Footer';
 
 const images = [logoDM, logoSushi, logoBoola, logoCom];
@@ -25,14 +24,14 @@ const imagesVector = [vectorAnsell, vectorDny, faceVector, vectorKny];
 const NextArrow = ({ onClick }) => {
   return (
     <div className="arrow next" onClick={onClick}>
-      <FaArrowRight />
+      <i class="fas fa-angle-right"></i>
     </div>
   );
 };
 const PrevArrow = ({ onClick }) => {
   return (
     <div className="arrow prev" onClick={onClick}>
-      <FaArrowLeft />
+      <i class="fas fa-angle-left"></i>
     </div>
   );
 };

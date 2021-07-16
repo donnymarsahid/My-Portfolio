@@ -248,3 +248,20 @@ body.darkmode .container-contact .email:hover,
 body.darkmode .container-contact .email:hover span {
   color: #be9d26;
 }
+
+body.darkmode .container-portfolio .fa-angle-left,
+body.darkmode .container-portfolio .fa-angle-right {
+  background-color: #666666e5;
+  color: #ffffff;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+body.darkmode .container-portfolio .fa-angle-left:hover,
+body.darkmode .container-portfolio .fa-angle-right:hover {
+  background-color: #666666;
+}
