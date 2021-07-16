@@ -39,6 +39,12 @@
   }
 }
 @media (max-width: 576px) {
+  .box-text-vector {
+    width: 175px !important;
+  }
+  .box-text-logo {
+    width: 155px !important;
+  }
   .ilustrator.jumbotron .btn-ilustrator:hover {
     background-color: transparent;
     font-weight: 500;
@@ -531,6 +537,7 @@
 
   .ilustrator.jumbotron .button .btn {
     padding: 0;
+    padding: 5px 8px 5px 8px;
   }
 
   .ilustrator.jumbotron .ilus-human img {
@@ -543,10 +550,10 @@
     border: 2px solid var(--yellow);
   }
 }
-
-/* Tablet to Desktop */
-
-@media (min-width: 768px) {
+@media (min-width: 769px) {
+  .container-custom-portfolio {
+    margin-top: -350px !important;
+  }
   .ilustrator.jumbotron .button .btn {
     padding: 5px 8px 5px 8px;
   }
@@ -556,9 +563,7 @@
   .box-text {
     width: 118px;
   }
-  .container-custom-portfolio {
-    margin-top: -350px !important;
-  }
+
   .container-custom-portfolio {
     width: 70%;
     margin: auto;

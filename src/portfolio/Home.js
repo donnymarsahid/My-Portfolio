@@ -139,25 +139,25 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div class="ilustrator jumbotron jumbotron-fluid">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 ilus-human">
-              <img src={ilusHuman} alt="ilustrator" />
-            </div>
-            <div class="col-sm-6 ilus-git text-center">
-              <img src={ilusGit} alt="ilustrator" width="100%" className="mb-5" />
-              <div class="button d-flex justify-content-between">
-                <button className="btn btn-ilustrator">
-                  <i className="fas fa-user"></i> Tentang
-                </button>
-                <button className="btn btn-ilustrator">
-                  <i className="fas fa-file"></i> Portfolio
-                </button>
-                <button className="btn btn-ilustrator">
-                  <i className="fas fa-envelope"></i> Kontak
-                </button>
+        <div class="ilustrator jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 ilus-human">
+                <img src={ilusHuman} alt="ilustrator" />
+              </div>
+              <div class="col-sm-6 ilus-git text-center">
+                <img src={ilusGit} alt="ilustrator" width="100%" className="mb-5" />
+                <div class="button d-flex justify-content-between">
+                  <button className="btn btn-ilustrator">
+                    <i className="fas fa-user"></i> Tentang
+                  </button>
+                  <button className="btn btn-ilustrator">
+                    <i className="fas fa-file"></i> Portfolio
+                  </button>
+                  <button className="btn btn-ilustrator">
+                    <i className="fas fa-envelope"></i> Kontak
+                  </button>
+                </div>
               </div>
             </div>
           </div>

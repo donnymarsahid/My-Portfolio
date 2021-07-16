@@ -93,6 +93,9 @@ nav .link-logo-img {
   color: var(--black);
   font-size: 30px;
 }
+.dark-mode i:hover {
+  color: #fecf28;
+}
 
 /* Animate Logo Start */
 .logo ul:hover li {

@@ -43,6 +43,18 @@ body.darkmode .box-text h3::after {
   margin-top: -10px;
   border-bottom: 8px solid #666666 !important;
 }
+body.darkmode .box-text-logo h3::after {
+  content: '';
+  display: block;
+  margin-top: -10px;
+  border-bottom: 8px solid #666666 !important;
+}
+body.darkmode .box-text-vector h3::after {
+  content: '';
+  display: block;
+  margin-top: -10px;
+  border-bottom: 8px solid #666666 !important;
+}
 
 body.darkmode .btn,
 body.darkmode button,
@@ -145,6 +157,22 @@ body.darkmode .ilustrator.jumbotron .btn-ilustrator:hover {
   border: 2px solid #808080;
 }
 
+body.darkmode .dark-mode .fa-sun:hover {
+  color: #fecf28;
+}
+
+body.darkmode .ilustrator.jumbotron {
+  background-image: url('../img/dmIlustrator.svg');
+  background-size: cover;
+  height: 600px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+body.darkmode .box-introduce-portfolio {
+  background-color: #666666;
+}
+
 body.darkmode footer .social-media-footer i {
   font-size: 28px;
   border: 2px solid white;
@@ -191,4 +219,12 @@ body.darkmode .box-portfolio .btn-preview-img:hover {
   border: 2px solid white;
   background-color: white !important;
   color: var(--black) !important;
+}
+
+body.darkmode .arrow {
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  z-index: 10;
 }
