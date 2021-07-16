@@ -249,8 +249,8 @@ body.darkmode .container-contact .email:hover span {
   color: #be9d26;
 }
 
-body.darkmode .container-portfolio .fa-angle-left,
-body.darkmode .container-portfolio .fa-angle-right {
+body.darkmode .container-portfolio .fa-angle-left.slide-slick-portfolio,
+body.darkmode .container-portfolio .fa-angle-right.slide-slick-portfolio {
   background-color: #666666e5;
   color: #ffffff;
   font-size: 28px;
@@ -261,7 +261,7 @@ body.darkmode .container-portfolio .fa-angle-right {
   width: 40px;
   border-radius: 100px;
 }
-body.darkmode .container-portfolio .fa-angle-left:hover,
-body.darkmode .container-portfolio .fa-angle-right:hover {
+body.darkmode .container-portfolio .fa-angle-left.slide-slick-portfolio:hover,
+body.darkmode .container-portfolio .fa-angle-right.slide-slick-portfolio:hover {
   background-color: #666666;
 }

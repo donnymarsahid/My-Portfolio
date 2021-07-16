@@ -24,14 +24,14 @@ const imagesVector = [vectorAnsell, vectorDny, faceVector, vectorKny];
 const NextArrow = ({ onClick }) => {
   return (
     <div className="arrow next" onClick={onClick}>
-      <i class="fas fa-angle-right"></i>
+      <i class="fas fa-angle-right slide-slick-portfolio"></i>
     </div>
   );
 };
 const PrevArrow = ({ onClick }) => {
   return (
     <div className="arrow prev" onClick={onClick}>
-      <i class="fas fa-angle-left"></i>
+      <i class="fas fa-angle-left slide-slick-portfolio"></i>
     </div>
   );
 };
