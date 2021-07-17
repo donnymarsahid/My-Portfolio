@@ -1,0 +1,81 @@
+:root {
+  --black: #3e3d3d;
+  --yellow: #fecf28;
+}
+
+.container-boola {
+  margin-top: 62px;
+}
+
+.container-boola .jumbotron {
+  background-image: url('../img/jb-boola.png');
+  background-size: cover;
+  height: 350px;
+}
+
+.container-boola .container-custom {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+}
+
+.container-boola .content-boola {
+  width: 80%;
+}
+
+.container-boola .sidebar {
+  width: 20%;
+}
+
+.container-boola .content-boola .btn-preview {
+  background-color: var(--yellow);
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  padding: 8px 11px 8px 11px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.281);
+  transition: 0.2s;
+}
+.container-boola .content-boola .btn-preview:hover {
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+  background-color: transparent;
+}
+
+.container-boola .heading-boola {
+  width: 268px;
+}
+
+.container-boola .heading-boola h4::after {
+  content: '';
+  background-color: var(--yellow);
+  height: 8px;
+  width: 100%;
+  display: block;
+  margin-top: -12px;
+}
+.container-boola .heading-boola-content {
+  width: 100px;
+}
+
+.container-boola .heading-boola-content h4::after {
+  content: '';
+  background-color: var(--yellow);
+  height: 8px;
+  width: 100%;
+  display: block;
+  margin-top: -12px;
+}
+.container-boola .heading-boola-content-section {
+  width: 200px;
+}
+
+.container-boola .heading-boola-content-section h4::after {
+  content: '';
+  background-color: var(--yellow);
+  height: 8px;
+  width: 100%;
+  display: block;
+  margin-top: -12px;
+}
