@@ -8,6 +8,7 @@ import Boola from './content/Boola';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 import Movies from './content/Movies';
+import NoMatch from './404/NoMatch';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           {/* Content */}
           <Route path="/post/boola" component={Boola} />
           <Route path="/post/movies" component={Movies} />
+          {/* 404 */}
+          <Route path="/*" component={NoMatch} />
         </Switch>
         <Footer />
       </Router>
