@@ -7,13 +7,7 @@
   margin-top: 62px;
 }
 
-.container-boola .jumbotron {
-  background-image: url('../img/jb-boola.png');
-  background-size: cover;
-  height: 350px;
-}
-
-.container-boola .container-custom {
+.container-boola .container-custom-boola {
   width: 80%;
   margin: auto;
   display: flex;
@@ -67,6 +61,18 @@
   display: block;
   margin-top: -12px;
 }
+.container-boola .heading-boola-thumbnail {
+  width: 130px;
+}
+
+.container-boola .heading-boola-thumbnail h4::after {
+  content: '';
+  background-color: var(--yellow);
+  height: 8px;
+  width: 100%;
+  display: block;
+  margin-top: -12px;
+}
 .container-boola .heading-boola-content-section {
   width: 200px;
 }
@@ -78,4 +84,48 @@
   width: 100%;
   display: block;
   margin-top: -12px;
+}
+.text-social-media.comment:hover {
+  color: rgb(209, 209, 23);
+  cursor: pointer;
+}
+.social-media-boola {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-boola .social-media-boola a {
+  text-decoration: none;
+}
+.container-boola .social-media-boola i {
+  color: var(--black);
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  border-radius: 100px;
+  font-size: 30px;
+  border: 2px solid var(--black);
+  padding: 8px;
+  transition: 0.2s;
+}
+.container-boola .sidebar-boola {
+  position: sticky;
+  top: 80px;
+}
+
+.container-boola .social-media-boola i:hover {
+  color: white;
+  border: 2px solid var(--yellow);
+  background-color: var(--yellow);
+}
+
+.container-boola .box-source-code {
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.212);
+  margin-bottom: 50px;
+}
+
+.container-boola .box-source-code .contact-code {
+  color: #3e3d3d;
 }

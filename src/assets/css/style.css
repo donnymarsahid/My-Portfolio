@@ -166,6 +166,9 @@ header p {
 /* Header End */
 
 /* Information Start */
+.container-custom {
+  position: relative;
+}
 .information {
   margin-top: 150px;
 }

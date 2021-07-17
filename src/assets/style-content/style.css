@@ -89,14 +89,17 @@
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.137);
 }
 
-.btn-box {
+.container-portfolio .btn-details {
+  margin: 0 0 10px 10px;
+}
+.container-portfolio .btn-details {
   border-radius: 5px;
   background-color: var(--yellow);
   color: var(--black);
   font-weight: 500;
   transition: 0.2s;
 }
-.btn-box:hover {
+.container-portfolio .btn-details:hover {
   border: 1px solid var(--yellow);
   background-color: transparent;
   color: var(--yellow);

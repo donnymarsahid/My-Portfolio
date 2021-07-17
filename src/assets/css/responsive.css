@@ -39,6 +39,69 @@
   }
 }
 @media (max-width: 576px) {
+  .container-boola .heading-boola-thumbnail {
+    width: 100px !important;
+  }
+
+  .container-boola .heading-boola-thumbnail h4::after {
+    content: '';
+    background-color: var(--yellow);
+    height: 6px !important;
+    width: 100%;
+    display: block;
+    margin-top: -10px !important;
+  }
+  .container-boola p {
+    font-size: 14px !important;
+  }
+  .container-boola h3 {
+    font-size: 20px !important;
+  }
+  .container-boola h4 {
+    font-size: 18px !important;
+  }
+  .container-boola .heading-boola-content {
+    width: 75px !important;
+  }
+
+  .container-boola .heading-boola-content h4::after {
+    content: '';
+    background-color: var(--yellow);
+    height: 6px !important;
+    width: 100%;
+    display: block;
+    margin-top: -10px !important;
+  }
+  .container-boola .heading-boola-content-section {
+    width: 148px !important;
+  }
+
+  .container-boola .heading-boola-content-section h4::after {
+    content: '';
+    background-color: var(--yellow);
+    height: 6px !important;
+    width: 100%;
+    display: block;
+    margin-top: -10px !important;
+  }
+  .container-boola .sidebar {
+    display: none;
+  }
+  .container-boola .content-boola {
+    width: 100% !important;
+  }
+  .container-portfolio .box-text {
+    width: 100px;
+  }
+  .container-portfolio .box-text-logo {
+    width: 145px !important;
+  }
+  .container-portfolio .box-text-vector {
+    width: 168px !important;
+  }
+  .container-portfolio .box-text {
+    width: 100px;
+  }
   .container-portfolio h4 {
     font-size: 18px !important;
   }
@@ -422,6 +485,35 @@
 }
 /* Mobile to Tablet */
 @media (min-width: 576px) and (max-width: 768px) {
+  .container-boola .heading-boola-content {
+    width: 95px !important;
+  }
+  .container-boola .heading-boola-content h4::after {
+    content: '';
+    background-color: var(--yellow);
+    height: 6px !important;
+    width: 100%;
+    display: block;
+    margin-top: -10px !important;
+  }
+  .container-boola .heading-boola-content-section {
+    width: 188px !important;
+  }
+
+  .container-boola .heading-boola-content-section h4::after {
+    content: '';
+    background-color: var(--yellow);
+    height: 6px !important;
+    width: 100%;
+    display: block;
+    margin-top: -10px !important;
+  }
+  .container-boola .sidebar {
+    display: none;
+  }
+  .container-boola .content-boola {
+    width: 100% !important;
+  }
   .box-text {
     width: 118px;
   }
@@ -560,7 +652,7 @@
   }
 }
 @media (min-width: 769px) {
-  .container-custom-portfolio {
+  .container-custom {
     margin-top: -350px !important;
   }
   .ilustrator.jumbotron .button .btn {

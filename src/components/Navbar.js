@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
 import '../assets/css/darkmode.css';
@@ -40,24 +40,15 @@ function hamburgerMenu() {
   $('.hamburger-menu .fa').toggleClass('fa-times');
 }
 const Navbar = () => {
-  useEffect(() => {
-    $('.about-nav').on('click', function () {
-      window.scrollTo(0, 0);
-    });
-    $('.home-nav').on('click', function () {
-      window.scrollTo(0, 0);
-    });
-  }, []);
-
   return (
     <>
       <nav className="fixed-top d-flex align-items-center shadow-sm">
         <div className="nav-bar d-flex justify-content-between container">
           <div className="logo d-flex">
-            <Link to="/" className="link-logo-img home-nav">
+            <Link to="/" className="link-logo-img ">
               <div className="logo-navbar" />
             </Link>
-            <Link to="/" className="link-logo-name home-nav">
+            <Link to="/" className="link-logo-name ">
               <ul className="d-flex align-items-center">
                 <li>D</li>
                 <li>o</li>
@@ -70,7 +61,7 @@ const Navbar = () => {
           <div className="link">
             <ul className="d-flex justify-content-around align-items-center">
               <li>
-                <Link to="/about" className="about-nav">
+                <Link to="/about">
                   <p>About</p>
                 </Link>
               </li>
@@ -97,13 +88,13 @@ const Navbar = () => {
       </nav>
       <div className="mobile-menu">
         <div className="link-hamburger">
-          <Link to="/about" className="linked about-nav">
+          <Link to="/about" className="linked">
             <p>About</p>
           </Link>
-          <Link to="/portfolio" className="linked home-nav">
+          <Link to="/portfolio" className="linked ">
             <p>Portfolio</p>
           </Link>
-          <Link to="/contact" className="linked home-nav">
+          <Link to="/contact" className="linked ">
             <p>Contact</p>
           </Link>
         </div>

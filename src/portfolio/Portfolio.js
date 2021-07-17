@@ -15,7 +15,7 @@ import vectorKny from '../assets/imgLogo/vector/4.jpg';
 import faceVector from '../assets/imgLogo/vector/5.jpg';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 const images = [logoDM, logoSushi, logoBoola, logoCom];
 const imagesVector = [vectorAnsell, vectorDny, faceVector, vectorKny];
@@ -91,8 +91,14 @@ const Portfolio = () => {
                 <div class="category-1">web develop</div>
                 <div class="category-2">web design</div>
               </div>
-              <button class="btn btn-box mt-3 ms-3 mb-3">Detail</button>
-              <button class="btn btn-box mt-3 ms-3 mb-3">Preview</button>
+              <Link to="/post/boola">
+                <button className="btn btn-details mt-2">
+                  <i className="fas fa-info-circle"></i> Detail
+                </button>
+              </Link>
+              <a href="http://boola.netlify.app" target="_blank" rel="noreferrer">
+                <button className="btn btn-details mt-2">Preview</button>
+              </a>
             </div>
           </div>
           <div class="col-md-6">
@@ -107,8 +113,14 @@ const Portfolio = () => {
                 <div class="category-1">web develop</div>
                 <div class="category-2">web design</div>
               </div>
-              <button class="btn btn-box mt-3 ms-3 mb-3">Detail</button>
-              <button class="btn btn-box mt-3 ms-3 mb-3">Preview</button>
+              <Link to="/post/movies">
+                <button className="btn btn-details mt-2">
+                  <i className="fas fa-info-circle"></i> Detail
+                </button>
+              </Link>
+              <a href="http://donmovies.netlify.app" target="_blank" rel="noreferrer">
+                <button className="btn btn-details mt-2">Preview</button>
+              </a>
             </div>
           </div>
         </div>
@@ -165,7 +177,6 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

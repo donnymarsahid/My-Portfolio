@@ -1,45 +1,39 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../assets/css/style.css';
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
 
 const Footer = () => {
-  useEffect(() => {
-    $('.home-nav').on('click', function () {
-      window.scrollTo(0, 0);
-    });
-  }, []);
   return (
     <>
       <footer>
         <div className="container d-flex align-items-center justify-content-between">
           <div className="about">
             <p>
-              <Link to="/about" className="home-nav">
+              <Link to="/about">
                 <p>About Me</p>
               </Link>
             </p>
             <p>
-              <Link to="/contact" className="home-nav">
+              <Link to="/contact">
                 <p>Contact Me</p>
               </Link>
             </p>
           </div>
           <div className="copyright">
             <p>
-              <Link to="/" className="home-nav">
+              <Link to="/">
                 <p>&copy; copyright 2021 | Donny Marsahid</p>
               </Link>
             </p>
           </div>
           <div className="link-portfolio">
             <p className="text-end">
-              <Link to="/portfolio" className="home-nav">
+              <Link to="/portfolio">
                 <p>Portfolio</p>
               </Link>
             </p>
             <p className="text-end">
-              <Link to="/" className="home-nav">
+              <Link to="/">
                 <p>Homepage</p>
               </Link>
             </p>

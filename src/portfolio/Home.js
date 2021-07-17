@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
-import bye from '../assets/img/bye.svg';
 import logoHeader from '../assets/img/logo-header.svg';
 import information from '../assets/img/information.svg';
 import landingPage from '../assets/img/landingpage.png';
@@ -9,15 +8,8 @@ import movies from '../assets/img/movies.png';
 import ilusHuman from '../assets/img/ilus-human.svg';
 import ilusGit from '../assets/img/ilus-git.svg';
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
-import Footer from '../components/Footer';
 
 const Home = () => {
-  useEffect(() => {
-    $('.home-nav').on('click', function () {
-      window.scrollTo(0, 0);
-    });
-  }, []);
   return (
     <>
       <div class="responsive-page">
@@ -27,8 +19,7 @@ const Home = () => {
               <div className="col-md-6 pt-5">
                 <div className="border-bottom-header border-bottom">
                   <div className="heading-header d-flex align-items-center">
-                    <img src={bye} alt="bye" className="pe-3 pb-2" />
-                    <h3>Halo selamat datang!</h3>
+                    <h3>Halo, Selamat Datang</h3>
                   </div>
                   <p>
                     Perkenalkan saya <strong>Donny Marsahid</strong> <br />
@@ -44,28 +35,6 @@ const Home = () => {
           </div>
         </header>
         <div className="vector-header img-fluid " />
-        <div class="container-custom">
-          <div className="information d-flex">
-            <div className="container text-center">
-              <div className="box">
-                <div className="logo-information">
-                  <img src={information} alt="information" />
-                </div>
-                <p className="pt-4 pb-3">
-                  Saya akan memperkenalkan beberapa{' '}
-                  <Link to="/portfolio" className="p home-nav">
-                    Portfolio
-                  </Link>{' '}
-                  yang saya buat, dari hasil kerja yang saya pelajari mengenai <strong>Web Design</strong> Maupun <strong>Web Develop</strong> , jika ingin bertanya{' '}
-                  <Link to="/contact" className="p home-nav">
-                    Kontak
-                  </Link>{' '}
-                  saya ya.. Selamat membaca :)
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="social-media">
           <a href="http://instagram.com/donnymrshd" className="icon-sosmed">
             <i className="fab fa-instagram d-flex align-items-center justify-content-center"></i>
@@ -80,6 +49,29 @@ const Home = () => {
             <i className="fab fa-dribbble d-flex align-items-center justify-content-center"></i>
           </a>
         </div>
+        <div class="container-custom">
+          <div className="information d-flex">
+            <div className="container text-center">
+              <div className="box">
+                <div className="logo-information">
+                  <img src={information} alt="information" />
+                </div>
+                <p className="pt-4 pb-3">
+                  Saya akan memperkenalkan beberapa{' '}
+                  <Link to="/portfolio" className="p">
+                    Portfolio
+                  </Link>{' '}
+                  yang saya buat, dari hasil kerja yang saya pelajari mengenai <strong>Web Design</strong> Maupun <strong>Web Develop</strong> , jika ingin bertanya{' '}
+                  <Link to="/contact" className="p">
+                    Kontak
+                  </Link>{' '}
+                  saya ya.. Selamat membaca :)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="container-custom-portfolio">
           <div className="content mb-5">
             <div className="container">
@@ -104,12 +96,14 @@ const Home = () => {
                       <div className="category-1">web develop</div>
                       <div className="category-2">web design</div>
                     </div>
-                    <Link to="/">
+                    <Link to="/post/boola">
                       <button className="btn btn-details mt-2">
                         <i className="fas fa-info-circle"></i> Detail
                       </button>
-                      <button className="btn btn-details mt-2">Preview</button>
                     </Link>
+                    <a href="http://boola.netlify.app" target="_blank" rel="noreferrer">
+                      <button className="btn btn-details mt-2">Preview</button>
+                    </a>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -129,18 +123,20 @@ const Home = () => {
                       <div className="category-1">web develop</div>
                       <div className="category-2">web design</div>
                     </div>
-                    <Link to="/">
+                    <Link to="/post/movies">
                       <button className="btn btn-details mt-2">
                         <i className="fas fa-info-circle"></i> Detail
                       </button>
-                      <button className="btn btn-details mt-2">Preview</button>
                     </Link>
+                    <a href="http://donmovies.netlify.app" target="_blank" rel="noreferrer">
+                      <button className="btn btn-details mt-2">Preview</button>
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="button text-center mt-5">
                 <Link to="/portfolio">
-                  <button className="btn btn-read-more home-nav">lihat selengkapnya</button>
+                  <button className="btn btn-read-more">lihat selengkapnya</button>
                 </Link>
               </div>
             </div>
@@ -157,18 +153,18 @@ const Home = () => {
                 <div class="button d-flex justify-content-between">
                   <Link to="/about">
                     {' '}
-                    <button className="btn btn-ilustrator home-nav">
+                    <button className="btn btn-ilustrator">
                       <i className="fas fa-user"></i> Tentang
                     </button>
                   </Link>
                   <Link to="/portfolio">
                     {' '}
-                    <button className="btn btn-ilustrator home-nav">
+                    <button className="btn btn-ilustrator">
                       <i className="fas fa-file"></i> Portfolio
                     </button>
                   </Link>
                   <Link to="/contact">
-                    <button className="btn btn-ilustrator home-nav">
+                    <button className="btn btn-ilustrator">
                       <i className="fas fa-envelope"></i> Kontak
                     </button>
                   </Link>
@@ -178,7 +174,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

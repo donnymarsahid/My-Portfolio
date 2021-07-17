@@ -5,11 +5,15 @@ import Navbar from './components/Navbar';
 import Portfolio from './portfolio/Portfolio';
 import Contact from './portfolio/Contact';
 import Boola from './content/Boola';
+import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
+import Movies from './content/Movies';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -18,7 +22,9 @@ function App() {
           <Route path="/contact" component={Contact} />
           {/* Content */}
           <Route path="/post/boola" component={Boola} />
+          <Route path="/post/movies" component={Movies} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );

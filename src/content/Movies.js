@@ -1,47 +1,35 @@
 import React from 'react';
 import './css/style.css';
-import headerBoola from './img/header.png';
-import featuresBoola from './img/features.png';
-import contentBoola from './img/content.png';
-import jbBoola from './img/jb-boola.png';
-import { Link } from 'react-router-dom';
+import jbMovies from './img/jb-movies.png';
+import mv from './img/mv.png';
 
-const Boola = () => {
+const Movies = () => {
   return (
     <>
       <div class="container-boola">
         <div class="jumbotron ">
-          <img src={jbBoola} alt="jb-boola" className="img-fluid" />
+          <img src={jbMovies} alt="jb-movies" className="img-fluid" />
         </div>
         <div class="container-custom-boola">
           <div class="content-boola">
-            <h3>Boola - Landing Page</h3>
+            <h3>DonMovies - Movies Details Apps</h3>
             <p className="mb-5">
-              Web ini adalah website untuk memperkenalkan atau mempromosikan Aplikasi Booking Lapangan Olahraga, dengan fitur-fitur tertentu dengan tampilan UI disertai UX yang dibuat se-simple mungkin agar enak dilihat dan mudah digunakan.
-              Dibuat dengan Bootstrap dan manual CSS , serta Library Jquery.
+              Website untuk mencari tahu details film favorite kalian, bagi yang tidak tahu siapa sih nama asli pemeran film yang kalian tonton atau Penulis Filmnya, maupun yang Directornya siapa di website ini tersedia Details Film
+              Favorite kalian dan tersedia juga Film - Film Lokal Indonesia, karena terhubung API dari OMDB.com, dan website ini dibuat menggunakan Vanila Javascript ES6 dengan metode Fetch.
             </p>
-            <a href="http://boola.netlify.app" target="_blank" rel="noreferrer" className="mb-5">
+            <a href="http://donmovies.netlify.app" target="_blank" rel="noreferrer" className="mb-5">
               <button class="btn-preview">Preview</button>
             </a>
-            <div class="heading-boola-content mb-3 mt-5">
-              <h4>Header</h4>
+            <div class="heading-boola-thumbnail mb-3 mt-5">
+              <h4>Thumbnail</h4>
             </div>
-            <img src={headerBoola} alt="header-boola" className="img-fluid mb-5" />
-            <div class="heading-boola-content mb-3">
-              <h4>Features</h4>
-            </div>
-            <img src={featuresBoola} alt="features-boola" className="img-fluid mb-5" />
-            <div class="heading-boola-content-section mb-3">
-              <h4>Content Section</h4>
-            </div>
-            <img src={contentBoola} alt="content-boola" className="img-fluid mb-5" />
+            <img src={mv} alt="header-movies" className="img-fluid mb-5" />
             <div class="box-source-code">
               <p>
-                Jika ingin Source Code <strong>Landing Page</strong> ini{' '}
-                <Link to="/contact" className="contact-code">
-                  <strong>Kontak</strong>
-                </Link>{' '}
-                saya ya
+                <a href="https://github.com/donnymarsahid/web-movies" style={{ color: '#3e3d3d' }}>
+                  Klik Disini
+                </a>{' '}
+                untuk <strong>Source Code</strong>
               </p>
             </div>
           </div>
@@ -73,4 +61,4 @@ const Boola = () => {
   );
 };
 
-export default Boola;
+export default Movies;
