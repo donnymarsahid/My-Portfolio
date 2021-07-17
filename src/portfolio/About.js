@@ -175,7 +175,7 @@ const About = () => {
                 <div className="box-equipment d-flex flex-column justify-content-center align-items-center">
                   <i className="fas fa-laptop"></i>
                   <p>
-                    Acer Aspire 3 <br /> on upgraded
+                    Acer Aspire 3 <br /> upgraded
                   </p>
                 </div>
               </div>
