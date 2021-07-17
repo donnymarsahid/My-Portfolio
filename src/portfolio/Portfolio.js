@@ -170,8 +170,8 @@ const Portfolio = () => {
                 <div class="category-1">street</div>
                 <div class="category-2">activity</div>
               </div>
-              <a href="https://www.shutterstock.com/g/DonPics?rid=292607883">
-                <button class="btn btn-box mt-3 ms-3 mb-3">Preview</button>
+              <a href="https://www.shutterstock.com/g/DonPics?rid=292607883" target="_blank" rel="noreferrer">
+                <button className="btn btn-details mt-2">Preview</button>
               </a>
             </div>
           </div>
