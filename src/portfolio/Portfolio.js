@@ -69,7 +69,7 @@ const Portfolio = () => {
             <h3>Portfolio</h3>
           </div>
           <div class="box-introduce-portfolio">
-            <p className="text-muted">
+            <p>
               Koleksi beberapa portfolio mulai dari <strong>website</strong>, design <strong>logo</strong>, <strong>vector</strong> dan Foto <strong>shutterstock</strong>, tersedia link untuk <strong>Preview</strong> dan{' '}
               <strong>Details</strong>{' '}
             </p>
