@@ -5,6 +5,7 @@ import '../assets/css/darkmode.css';
 const Contact = () => {
   return (
     <>
+      <title>Contact</title>
       <div class="container-contact">
         <p>Ada pertanyaan ? </p>
         <h3>Kontak Saya melalui</h3>

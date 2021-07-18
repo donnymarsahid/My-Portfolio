@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 const Boola = () => {
   return (
     <>
+      <title>Boola | Portfolio</title>
       <div class="container-boola">
         <div class="jumbotron ">
           <img src={jbBoola} alt="jb-boola" className="img-fluid" />

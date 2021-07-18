@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
+      <title>Cv site | Donny</title>
       <div class="responsive-page">
         <header className="d-flex align-items-center">
           <div className="jumbotron-header container">

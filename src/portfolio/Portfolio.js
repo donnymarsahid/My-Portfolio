@@ -63,6 +63,7 @@ const Portfolio = () => {
   };
   return (
     <>
+      <title>Portfolio</title>
       <div class="container-portfolio container">
         <div class="content-portfolio">
           <div className="box-text mb-4">

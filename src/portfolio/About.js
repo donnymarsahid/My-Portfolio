@@ -24,6 +24,7 @@ function dropDown() {
 const About = () => {
   return (
     <>
+      <title>About Donny</title>
       <div className="pages-about-me">
         <div className="page-about">
           <div className="jumbotron jumbotron-fluid"></div>

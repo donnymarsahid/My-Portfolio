@@ -6,6 +6,7 @@ import mv from './img/mv.png';
 const Movies = () => {
   return (
     <>
+      <title>Movies | Portfolio</title>
       <div class="container-boola">
         <div class="jumbotron ">
           <img src={jbMovies} alt="jb-movies" className="img-fluid" />
@@ -14,8 +15,8 @@ const Movies = () => {
           <div class="content-boola">
             <h3>DonMovies - Movies Details Apps</h3>
             <p className="mb-5">
-              Website untuk mencari tahu details film favorite kalian, bagi yang tidak tahu siapa sih nama asli pemeran film yang kalian tonton atau Penulis Filmnya, maupun yang Directornya siapa di website ini tersedia Details Film
-              Favorite kalian dan tersedia juga Film - Film Lokal Indonesia, karena terhubung API dari OMDB.com, dan website ini dibuat menggunakan Vanila Javascript ES6 dengan metode Fetch.
+              Website untuk mencari tahu details film favorite kalian, bagi yang tidak tahu siapa nama asli pemeran film yang kalian tonton, Penulis Filmnya, maupun Directornya siapa di website ini tersedia Details Film Favorite kalian dan
+              tersedia juga Film - Film Lokal Indonesia, karena terhubung API dari OMDB.com, dan website ini dibuat menggunakan Vanila Javascript ES6 dengan metode Fetch.
             </p>
             <a href="http://donmovies.netlify.app" target="_blank" rel="noreferrer" className="mb-5">
               <button class="btn-preview">Preview</button>
