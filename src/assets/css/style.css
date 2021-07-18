@@ -431,7 +431,13 @@ footer .social-media-footer i:hover {
 /* Page Portfolio End */
 
 /* Page About Start */
-
+.pages-about-me .waves-about {
+  background-image: url('../img/waves.svg');
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .pages-about-me {
   color: var(--black);
 }
@@ -440,11 +446,6 @@ footer .social-media-footer i:hover {
 }
 .page-about .img-about {
   width: 200px;
-}
-
-.page-about .jumbotron {
-  background-color: #f1f1f1;
-  height: 200px;
 }
 .page-about .name-about {
   margin-top: -155px;

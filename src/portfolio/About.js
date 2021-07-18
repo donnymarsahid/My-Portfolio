@@ -28,6 +28,7 @@ const About = () => {
       <div className="pages-about-me">
         <div className="page-about">
           <div className="jumbotron jumbotron-fluid"></div>
+          <div className="waves-about img-fluid" />
           <div className="text-center name-about mb-4">
             <img src={donny} alt="donny" className="img-about" />
             <h3>Donny Marsahid</h3>

@@ -265,3 +265,10 @@ body.darkmode .container-portfolio .fa-angle-left.slide-slick-portfolio:hover,
 body.darkmode .container-portfolio .fa-angle-right.slide-slick-portfolio:hover {
   background-color: #666666;
 }
+
+body.darkmode .pages-about-me .waves-about {
+  background-image: url('../img/Vector (5).svg');
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
