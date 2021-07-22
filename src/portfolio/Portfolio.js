@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '../assets/style-content/style.css';
 import '../assets/css/responsive.css';
-import landingPage from '../assets/img/landingpage.png';
-import movies from '../assets/img/movies.png';
+import landingPage from '../assets/img/thumbBoola.png';
+import movies from '../assets/img/thumbDMv.png';
 import shutterstock from '../assets/img/shutterstock.png';
 import Slider from 'react-slick';
 import logoDM from '../assets/imgLogo/logo/2.jpg';
@@ -80,10 +80,14 @@ const Portfolio = () => {
           <h3>Website</h3>
         </div>
         <div className="row mb-5">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="box-details">
-              <img src={landingPage} alt="landingPage" width="100%" />
-              <h4 className="ms-3 mt-3">Boola - Landing Page</h4>
+              <Link to="/post/boola">
+                <img src={landingPage} alt="landingPage" width="100%" />
+              </Link>
+              <Link to="/post/boola" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
+                <h4 className="ms-3 mt-3">Boola - Landing Page</h4>
+              </Link>
               <p className="text-muted  ms-3">pembuatan website landing page</p>
               <p className="text-muted  ms-3">
                 Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
@@ -102,11 +106,41 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="box-details">
-              <img src={movies} alt="movies" width="100%" />
-              <h4 className="ms-3 mt-3">DonMovies - Movies Details Apps</h4>
-              <p className="text-muted  ms-3">pembuatan website details film</p>
+              <Link to="/post/boola">
+                <img src={movies} alt="movies" width="100%" />
+              </Link>
+              <Link to="/post/boola" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
+                <h4 className="ms-3 mt-3">DMv - Movies App</h4>
+              </Link>
+              <p className="text-muted  ms-3">pembuatan website film</p>
+              <p className="text-muted  ms-3">
+                Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
+              </p>
+              <div class="category  ms-3">
+                <div class="category-1">web develop</div>
+                <div class="category-2">web design</div>
+              </div>
+              <Link to="/post/movies">
+                <button className="btn btn-details mt-2">
+                  <i className="fas fa-info-circle"></i> Detail
+                </button>
+              </Link>
+              <a href="http://donmovies.netlify.app" target="_blank" rel="noreferrer">
+                <button className="btn btn-details mt-2">Preview</button>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box-details">
+              <Link to="/post/movies">
+                <img src={movies} alt="movies" width="100%" />
+              </Link>
+              <Link to="/post/movies" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
+                <h4 className="ms-3 mt-3">DMv - Movies App</h4>
+              </Link>
+              <p className="text-muted  ms-3">pembuatan website film</p>
               <p className="text-muted  ms-3">
                 Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
               </p>

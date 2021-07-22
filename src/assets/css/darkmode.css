@@ -272,3 +272,8 @@ body.darkmode .pages-about-me .waves-about {
   height: 200px;
   background-size: cover;
 }
+
+body.darkmode .box-source-code {
+  background-color: #666666;
+  color: white;
+}

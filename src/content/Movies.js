@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/style.css';
-import jbMovies from './img/jb-movies.png';
+import jbMovies from './img/jbMovies.png';
 import mv from './img/mv.png';
 
 const Movies = () => {
@@ -13,10 +13,10 @@ const Movies = () => {
         </div>
         <div class="container-custom-boola">
           <div class="content-boola">
-            <h3>DonMovies - Movies Details Apps</h3>
+            <h3>DMv - Movies App</h3>
             <p className="mb-5">
-              Website untuk mencari tahu details film favorite kalian, bagi yang tidak tahu siapa nama asli pemeran film yang kalian tonton, Penulis Filmnya, maupun Directornya siapa di website ini tersedia Details Film Favorite kalian dan
-              tersedia juga Film - Film Lokal Indonesia, karena terhubung API dari OMDB.com, dan website ini dibuat menggunakan Vanila Javascript ES6 dengan metode Fetch.
+              Website ini untuk mencari tahu film - film Populer, Tren Teratas bahkan film favorite kalian, dengan Fitur Search kalian bisa mencari film yang diinginkan, Tersedia Detail Film dan Trailernya. Tampilannya sudah Responsive
+              dapat dibuka di device apapun Mobile, Tablet, Desktop. Website ini terhubung API dari themoviedb.org dan dibuat menggunakan React JS
             </p>
             <a href="http://donmovies.netlify.app" target="_blank" rel="noreferrer" className="mb-5">
               <button class="btn-preview">Preview</button>

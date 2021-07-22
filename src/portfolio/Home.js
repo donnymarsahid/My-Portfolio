@@ -3,8 +3,8 @@ import '../assets/css/style.css';
 import '../assets/css/responsive.css';
 import logoHeader from '../assets/img/logo-header.svg';
 import information from '../assets/img/information.svg';
-import landingPage from '../assets/img/landingpage.png';
-import movies from '../assets/img/movies.png';
+import landingPage from '../assets/img/thumbBoola.png';
+import movies from '../assets/img/thumbDMv.png';
 import ilusHuman from '../assets/img/ilus-human.svg';
 import ilusGit from '../assets/img/ilus-git.svg';
 import { Link } from 'react-router-dom';
@@ -82,10 +82,10 @@ const Home = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="box-portfolio">
-                    <Link to="/">
+                    <Link to="/post/boola">
                       <img src={landingPage} className="mb-3" alt="landing-page" />
                     </Link>
-                    <Link to="/" className="h4">
+                    <Link to="/post/movies" className="h4">
                       <h4>Boola - Landing Page</h4>
                     </Link>
                     <p>pembuatan website landing page</p>
@@ -109,11 +109,11 @@ const Home = () => {
                 </div>
                 <div className="col-md-6">
                   <div className="box-portfolio">
-                    <Link to="/">
+                    <Link to="/post/movies">
                       <img src={movies} className="mb-3" alt="movies" />
                     </Link>
-                    <Link to="/" className="h4">
-                      <h4>DonMovies - Details Movies Apps</h4>
+                    <Link to="/post/movies" className="h4">
+                      <h4>DMv - Movies App</h4>
                     </Link>
                     <p>pembuatan website Movies</p>
                     <p className="text-muted posted">

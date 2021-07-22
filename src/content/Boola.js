@@ -3,7 +3,7 @@ import './css/style.css';
 import headerBoola from './img/header.png';
 import featuresBoola from './img/features.png';
 import contentBoola from './img/content.png';
-import jbBoola from './img/jb-boola.png';
+import jbBoola from './img/jbBoola.png';
 import { Link } from 'react-router-dom';
 
 const Boola = () => {
@@ -19,7 +19,7 @@ const Boola = () => {
             <h3>Boola - Landing Page</h3>
             <p className="mb-5">
               Web ini adalah website untuk memperkenalkan atau mempromosikan Aplikasi Booking Lapangan Olahraga, dengan fitur-fitur tertentu dengan tampilan UI disertai UX yang dibuat se-simple mungkin agar enak dilihat dan mudah digunakan.
-              Dibuat dengan Bootstrap dan manual CSS , serta Library Jquery.
+              tampilan sudah Responsive Mobile, Tablet, Desktop. Dibuat dengan Bootstrap dan manual CSS , serta Library Jquery.
             </p>
             <a href="http://boola.netlify.app" target="_blank" rel="noreferrer" className="mb-5">
               <button class="btn-preview">Preview</button>
