@@ -9,6 +9,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 import Movies from './content/Movies';
 import NoMatch from './404/NoMatch';
+import Donstore from './content/Donstore';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           {/* Content */}
           <Route path="/post/boola" component={Boola} />
           <Route path="/post/movies" component={Movies} />
+          <Route path="/post/donstore" component={Donstore} />
           {/* 404 */}
           <Route path="/*" component={NoMatch} />
         </Switch>

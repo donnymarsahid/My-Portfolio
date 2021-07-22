@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/style-content/style.css';
 import '../assets/css/responsive.css';
+import donstore from '../assets/img/thumbDonStore.png';
 import landingPage from '../assets/img/thumbBoola.png';
 import movies from '../assets/img/thumbDMv.png';
 import shutterstock from '../assets/img/shutterstock.png';
@@ -83,6 +84,32 @@ const Portfolio = () => {
           <div class="col-md-4">
             <div class="box-details">
               <Link to="/post/boola">
+                <img src={donstore} alt="donstore" width="100%" />
+              </Link>
+              <Link to="/post/boola" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
+                <h4 className="ms-3 mt-3">DS e-commerce</h4>
+              </Link>
+              <p className="text-muted  ms-3">pembuatan website e-commerce</p>
+              <p className="text-muted  ms-3">
+                Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
+              </p>
+              <div class="category  ms-3">
+                <div class="category-1">web develop</div>
+                <div class="category-2">web design</div>
+              </div>
+              <Link to="/post/donstore">
+                <button className="btn btn-details mt-2">
+                  <i className="fas fa-info-circle"></i> Detail
+                </button>
+              </Link>
+              <a href="http://boola.netlify.app" target="_blank" rel="noreferrer">
+                <button className="btn btn-details mt-2">Preview</button>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box-details">
+              <Link to="/post/boola">
                 <img src={landingPage} alt="landingPage" width="100%" />
               </Link>
               <Link to="/post/boola" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
@@ -112,32 +139,6 @@ const Portfolio = () => {
                 <img src={movies} alt="movies" width="100%" />
               </Link>
               <Link to="/post/boola" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
-                <h4 className="ms-3 mt-3">DMv - Movies App</h4>
-              </Link>
-              <p className="text-muted  ms-3">pembuatan website film</p>
-              <p className="text-muted  ms-3">
-                Jul, 7 2021 <br /> <i className="fas fa-user-circle"></i> by Donny Marsahid{' '}
-              </p>
-              <div class="category  ms-3">
-                <div class="category-1">web develop</div>
-                <div class="category-2">web design</div>
-              </div>
-              <Link to="/post/movies">
-                <button className="btn btn-details mt-2">
-                  <i className="fas fa-info-circle"></i> Detail
-                </button>
-              </Link>
-              <a href="http://donmovies.netlify.app" target="_blank" rel="noreferrer">
-                <button className="btn btn-details mt-2">Preview</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="box-details">
-              <Link to="/post/movies">
-                <img src={movies} alt="movies" width="100%" />
-              </Link>
-              <Link to="/post/movies" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
                 <h4 className="ms-3 mt-3">DMv - Movies App</h4>
               </Link>
               <p className="text-muted  ms-3">pembuatan website film</p>

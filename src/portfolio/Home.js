@@ -4,6 +4,7 @@ import '../assets/css/responsive.css';
 import logoHeader from '../assets/img/logo-header.svg';
 import information from '../assets/img/information.svg';
 import landingPage from '../assets/img/thumbBoola.png';
+import donstore from '../assets/img/thumbDonStore.png';
 import movies from '../assets/img/thumbDMv.png';
 import ilusHuman from '../assets/img/ilus-human.svg';
 import ilusGit from '../assets/img/ilus-git.svg';
@@ -72,7 +73,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div class="container-custom-portfolio">
           <div className="content mb-5">
             <div className="container">
@@ -80,6 +80,33 @@ const Home = () => {
                 <h3>Portfolio</h3>
               </div>
               <div className="row">
+                <div className="col-md-6">
+                  <div className="box-portfolio">
+                    <Link to="/post/boola">
+                      <img src={donstore} className="mb-3" alt="donstore" />
+                    </Link>
+                    <Link to="/post/movies" className="h4">
+                      <h4>DS e-commerce</h4>
+                    </Link>
+                    <p>pembuatan website e-commerce</p>
+                    <p className="text-muted posted">
+                      Jul, 7 2021 <br />
+                      <i className="fas fa-user-circle"></i> by Donny Marsahid
+                    </p>
+                    <div className="category d-flex">
+                      <div className="category-1">web develop</div>
+                      <div className="category-2">web design</div>
+                    </div>
+                    <Link to="/post/donstore">
+                      <button className="btn btn-details mt-2">
+                        <i className="fas fa-info-circle"></i> Detail
+                      </button>
+                    </Link>
+                    <a href="http://boola.netlify.app" target="_blank" rel="noreferrer">
+                      <button className="btn btn-details mt-2">Preview</button>
+                    </a>
+                  </div>
+                </div>
                 <div className="col-md-6">
                   <div className="box-portfolio">
                     <Link to="/post/boola">
