@@ -14,12 +14,13 @@ import vectorAnsell from '../assets/imgLogo/vector/2.jpg';
 import vectorDny from '../assets/imgLogo/vector/3.jpg';
 import vectorKny from '../assets/imgLogo/vector/4.jpg';
 import faceVector from '../assets/imgLogo/vector/5.jpg';
+import vctr from '../assets/imgLogo/vector/6.png';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import { Link } from 'react-router-dom';
 
 const images = [logoDM, logoSushi, logoBoola, logoCom];
-const imagesVector = [vectorAnsell, vectorDny, faceVector, vectorKny];
+const imagesVector = [vectorAnsell, vectorDny, vectorKny, faceVector, vctr];
 
 // Slick
 const NextArrow = ({ onClick }) => {
@@ -83,10 +84,10 @@ const Portfolio = () => {
         <div className="row mb-5">
           <div class="col-md-4">
             <div class="box-details">
-              <Link to="/post/boola">
+              <Link to="/post/donstore">
                 <img src={donstore} alt="donstore" width="100%" />
               </Link>
-              <Link to="/post/boola" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
+              <Link to="/post/donstore" style={{ textDecoration: 'none', color: '#3e3d3d' }}>
                 <h4 className="ms-3 mt-3">DS e-commerce</h4>
               </Link>
               <p className="text-muted  ms-3">pembuatan website e-commerce</p>

@@ -82,10 +82,10 @@ const Home = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="box-portfolio">
-                    <Link to="/post/boola">
+                    <Link to="/post/donstore">
                       <img src={donstore} className="mb-3" alt="donstore" />
                     </Link>
-                    <Link to="/post/movies" className="h4">
+                    <Link to="/post/donstore" className="h4">
                       <h4>DS e-commerce</h4>
                     </Link>
                     <p>pembuatan website e-commerce</p>
